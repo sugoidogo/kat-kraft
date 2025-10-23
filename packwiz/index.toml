@@ -6522,6 +6522,11 @@ hash = "77f136e686f26816e043d7b0c8a4ea00db53c856e2ed278118d1ea9144007a10"
 metafile = true
 
 [[files]]
+file = "mods/modflared.pw.toml"
+hash = "2dabcc7476f2004c5ae08cb30a0a331c56431c3da6a640c7352b35359af955c1"
+metafile = true
+
+[[files]]
 file = "mods/modonomicon.pw.toml"
 hash = "a9553b39ef03ff0a7f25cf75d55178c13f5e49917b71eeb0d716cd1300742cbb"
 metafile = true
