@@ -6108,7 +6108,7 @@ metafile = true
 
 [[files]]
 file = "mods/framedblocks.pw.toml"
-hash = "73cf75aef7cff09f3c89886328f43b4d2cf81c1b96e34fbdbf01f154e5a0ac6e"
+hash = "a5d3dceee690644196c90151e6e3aa62ff42dd049763dc833227e834954db146"
 metafile = true
 
 [[files]]
@@ -6648,7 +6648,7 @@ metafile = true
 
 [[files]]
 file = "mods/oculus.pw.toml"
-hash = "b61c6e2ecddf9f67a32dcb6be9f69181b9e55a33289fea481722df575b1c95fa"
+hash = "edd04b47948850d3937f8e8867a99a3695b50d3bd0955f749b12f08a1bd8b7cd"
 metafile = true
 
 [[files]]

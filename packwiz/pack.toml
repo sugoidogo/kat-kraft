@@ -1,12 +1,12 @@
 name = "KatKraft"
 author = "SugoiDogo"
-version = "1.0.1"
+version = "1.0.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "c3bd36d74f174efee92a212d51bc8f6cbfb3948e593b93a6332054dc96b80a77"
+hash = "821ed2bb83535279359a8c1d97126dcee95d6301a27f4334d90000bd3b972e3e"
 
 [versions]
 forge = "43.2.14"
