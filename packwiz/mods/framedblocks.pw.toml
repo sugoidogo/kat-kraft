@@ -1,6 +1,6 @@
 name = "FramedBlocks"
 filename = "FramedBlocks-6.8.6.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

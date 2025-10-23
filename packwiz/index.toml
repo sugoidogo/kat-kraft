@@ -5973,7 +5973,7 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "e8dcc1f016e1f5fe4507ecd53066b7699fb4bcae5c0f5cc0c97ca475d4c0ec2a"
+hash = "5604ee8d4552254754284355620599957537d704889ad2f567998c93ac743b0e"
 metafile = true
 
 [[files]]
@@ -6108,7 +6108,7 @@ metafile = true
 
 [[files]]
 file = "mods/framedblocks.pw.toml"
-hash = "a5d3dceee690644196c90151e6e3aa62ff42dd049763dc833227e834954db146"
+hash = "73cf75aef7cff09f3c89886328f43b4d2cf81c1b96e34fbdbf01f154e5a0ac6e"
 metafile = true
 
 [[files]]
@@ -6373,7 +6373,7 @@ metafile = true
 
 [[files]]
 file = "mods/legendary-tooltips.pw.toml"
-hash = "9c615d5831f5d8ab7b52a09291814b747af297c945d5e82a706b6555fdb5fd0b"
+hash = "462f056d4000c39a7cacff2b698ffc6b7c7b76ba6ec242f1b6f940f3d143a4b9"
 metafile = true
 
 [[files]]
@@ -6648,7 +6648,7 @@ metafile = true
 
 [[files]]
 file = "mods/oculus.pw.toml"
-hash = "26d7cfc533fac6969f38170710bc4fd7fa229f921222436a2be7b10dbcd50cdc"
+hash = "b61c6e2ecddf9f67a32dcb6be9f69181b9e55a33289fea481722df575b1c95fa"
 metafile = true
 
 [[files]]
