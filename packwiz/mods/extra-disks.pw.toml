@@ -1,0 +1,13 @@
+name = "Extra Disks"
+filename = "ExtraDisks-1.19.2-2.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dc1b54f3f03b08afa67a10a90ad10bdace82c65d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4903098
+project-id = 351491

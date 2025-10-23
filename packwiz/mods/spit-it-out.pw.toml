@@ -1,0 +1,13 @@
+name = "Spit it out"
+filename = "SpitItOut-1.19.4-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "168ca73b5bf396cc325d5ec70d53d7bf9f8e86d9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4888738
+project-id = 857141

@@ -1,0 +1,7 @@
+name = "hexerei"
+filename = "hexerei-0.5.0.3.jar"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/6376/510/hexerei-0.5.0.3.jar"
+hash-format = "sha256"
+hash = "743e80cb0526fa5fffdb660c5c3230df47d664fb268e48ca888771c4cf594240"

@@ -1,0 +1,13 @@
+name = "AECapFix"
+filename = "aecapfix-0.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e86bebe64492cb684000d88100774287cebc1649"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4838060
+project-id = 914685
