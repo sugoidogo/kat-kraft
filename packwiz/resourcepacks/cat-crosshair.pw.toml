@@ -1,0 +1,13 @@
+name = "Cat Crosshair"
+filename = "CatCrosshair_v2.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/w7qrBleX/versions/oaahpfwB/CatCrosshair_v2.0.zip"
+hash-format = "sha512"
+hash = "826302aa9037151fa40a457ed90f2fbead03df577c09b665f70d584c8867121ba7e51fe3f0bb80727afd89c097f0aa3e026f2fc35d67e443d6111ba7ebb4042a"
+
+[update]
+[update.modrinth]
+mod-id = "w7qrBleX"
+version = "oaahpfwB"

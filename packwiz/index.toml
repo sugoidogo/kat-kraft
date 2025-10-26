@@ -7646,6 +7646,11 @@ hash = "1bd37801528861dc161a11cfdcdde59c5b440926ff575d211fdd4943f1bc5014"
 metafile = true
 
 [[files]]
+file = "resourcepacks/cat-crosshair.pw.toml"
+hash = "bc343b6a509c0e7e6a3af071835a110d5bd2e0cb43899c96bd51d1769e49b2ca"
+metafile = true
+
+[[files]]
 file = "resourcepacks/creeper-girls.pw.toml"
 hash = "38f14b24d9deb131489c578e61eeed1878d02ddcff1ee568211d8fb101e480d0"
 metafile = true
