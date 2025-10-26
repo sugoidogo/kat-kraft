@@ -4430,6 +4430,11 @@ hash = "07f4675d7bbf74292ba194982c1884578b65873929697fdcbd1ab908027e27e4"
 metafile = true
 
 [[files]]
+file = "mods/entity-model-features.pw.toml"
+hash = "5ac6fe9a921d8fa00456ec2e18da02ede5c0da424c5c5b57da1206feeac40ff6"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "b597014c87e5dba13a0c5942456e07588a7a1c806f83016dd18be4ae4046fcf4"
 metafile = true
@@ -7631,6 +7636,11 @@ file = "packmenu/resources/pack.png"
 hash = "95f962993cd12a6130babe1f467b97bebcc70a46945bda4b37e134851e434adc"
 
 [[files]]
+file = "resourcepacks/3d-default.pw.toml"
+hash = "1bd37801528861dc161a11cfdcdde59c5b440926ff575d211fdd4943f1bc5014"
+metafile = true
+
+[[files]]
 file = "resourcepacks/creeper-girls.pw.toml"
 hash = "38f14b24d9deb131489c578e61eeed1878d02ddcff1ee568211d8fb101e480d0"
 metafile = true
@@ -7643,6 +7653,41 @@ metafile = true
 [[files]]
 file = "resourcepacks/cuteanimemobs.pw.toml"
 hash = "8dafd67519714f7e879301f57a434e9eb2a33c5bcd7650da2f95e6ce7293d8d9"
+metafile = true
+
+[[files]]
+file = "resourcepacks/eating-animation-plus-forge.pw.toml"
+hash = "1db9433af4bf80b6653677d44f100ee3af4ea5cd3bd94cbd51da66298bf4ceb4"
+metafile = true
+
+[[files]]
+file = "resourcepacks/enchant-icons-countxd.pw.toml"
+hash = "d9e7e86ddb96102cedc1173006459c1cb4338698087bf16258abb23dd7889219"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fancy-beds.pw.toml"
+hash = "48f5227713491697281eec979e11c153c6fc68e7e43b9c2bb817dbe70fa3109b"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations-extensions.pw.toml"
+hash = "c35f41d09504478ac9d85d9a939460511c50676f5ea3a19537a2ac204281506e"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations.pw.toml"
+hash = "bf6bf356ece200c132c604c1cdd981c8a7baf6a30ed05fa057fdfc0444df779d"
+metafile = true
+
+[[files]]
+file = "resourcepacks/gn-redstone3d.pw.toml"
+hash = "94d9395bbf27eb75c9d23512acbd3e1ad95bbb11c341aee1a337e963424167bf"
+metafile = true
+
+[[files]]
+file = "resourcepacks/nautilus3d.pw.toml"
+hash = "cc1f6b8dd551b4aee58a60052aecaea58585e7698716f0e55e1348770d297615"
 metafile = true
 
 [[files]]
