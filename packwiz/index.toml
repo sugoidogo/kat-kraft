@@ -7834,13 +7834,33 @@ file = "packmenu/resources/pack.png"
 hash = "95f962993cd12a6130babe1f467b97bebcc70a46945bda4b37e134851e434adc"
 
 [[files]]
+file = "resourcepacks/boss-crosshair-6.pw.toml"
+hash = "1bdc2ed5fb9fa5e98ab5458ab8ad389c602966a589387d5d852e9beae93e87e7"
+metafile = true
+
+[[files]]
+file = "resourcepacks/cat-crosshair.pw.toml"
+hash = "3f033bda1fc6292c1f8772065592dceac85b71c5805146ba8e976b1b35fb4ddb"
+metafile = true
+
+[[files]]
 file = "resourcepacks/creeper-girls.pw.toml"
 hash = "38f14b24d9deb131489c578e61eeed1878d02ddcff1ee568211d8fb101e480d0"
 metafile = true
 
 [[files]]
+file = "resourcepacks/crosshair-cube.pw.toml"
+hash = "e2c2d2da1b5ac0ef24f7b76359aeeae15e5d6ec1e5035037aa7d265b6d869bac"
+metafile = true
+
+[[files]]
 file = "resourcepacks/cuteanimemobs.pw.toml"
 hash = "17be4a934da499f73a16f29d35e2c61ab160df6c05ab21b5f54d8fc2bd728fe4"
+metafile = true
+
+[[files]]
+file = "resourcepacks/smaller-crosshair.pw.toml"
+hash = "c864a3c5cba312c05a4773d86180260d4923134871a7bf54e8a78f82f99c4235"
 metafile = true
 
 [[files]]
