@@ -4310,6 +4310,11 @@ hash = "6bff28fd3a3fa5e2d3a4ab16ca9db00b86fa5b787117b22c2f7a1a921c09eb34"
 metafile = true
 
 [[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "c5ea75feae4d340856611f78a29e6f1f0b7e707bfe43847f11d25fac1769dee7"
+metafile = true
+
+[[files]]
 file = "mods/dokimobs.pw.toml"
 hash = "3bf2063c287f77f81ddf2ff9a907573801ac18fd2014ed50ba680d0d761554c6"
 metafile = true
