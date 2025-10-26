@@ -1,0 +1,13 @@
+name = "dokimobs"
+filename = "dokimobs-0.1.4+1.20.1-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qEqAvibY/versions/OkifajC4/dokimobs-0.1.4%2B1.20.1-forge.jar"
+hash-format = "sha512"
+hash = "f4212c3fc839b11e7c9b72248b58376ad4daaa4a8100b671ce3eac43ee40b0239d322bbad68190a183153a28ca392a148c917feb4935eb6896512d33d829b5a4"
+
+[update]
+[update.modrinth]
+mod-id = "qEqAvibY"
+version = "OkifajC4"
