@@ -5647,6 +5647,11 @@ hash = "d68fcf260dedc8d43073a7f54feb935f82084ad1b270a68037eb510f955c884b"
 metafile = true
 
 [[files]]
+file = "mods/blahaj-reforged.pw.toml"
+hash = "a067a1a40b94a840278e0d7fc9c9cfbcffe1243720e59afbfa3ac263023db90f"
+metafile = true
+
+[[files]]
 file = "mods/blockui.pw.toml"
 hash = "4bf1ad1c27a58cd526683ef098cd8cb469391a697eb78be62dd76ad099dd0578"
 metafile = true
@@ -7832,11 +7837,6 @@ hash = "157a33d968ad30a59edae72d0a1b870a9d8b1867601f45494072f9773e7bc21d"
 [[files]]
 file = "packmenu/resources/pack.png"
 hash = "95f962993cd12a6130babe1f467b97bebcc70a46945bda4b37e134851e434adc"
-
-[[files]]
-file = "resourcepacks/boss-crosshair-6.pw.toml"
-hash = "1bdc2ed5fb9fa5e98ab5458ab8ad389c602966a589387d5d852e9beae93e87e7"
-metafile = true
 
 [[files]]
 file = "resourcepacks/cat-crosshair.pw.toml"
