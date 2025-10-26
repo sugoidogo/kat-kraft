@@ -1,0 +1,13 @@
+name = "Creeper Girls"
+filename = "CreeperChan v1.0.0.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b2d9a7ecfa11acde500de353def378347573aa0d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5303474
+project-id = 1011238

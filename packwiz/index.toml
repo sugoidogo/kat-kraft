@@ -5882,6 +5882,11 @@ hash = "80ac57e28a81cae1de469624788fdcf91b50485595a585dfbbb66d96f94fbb7a"
 metafile = true
 
 [[files]]
+file = "mods/custom-crosshair-mod.pw.toml"
+hash = "605497c5abc071a0fdb9a3cf433780280f7183490e8dfb00a7276d54eb3fd40f"
+metafile = true
+
+[[files]]
 file = "mods/cyclops-core.pw.toml"
 hash = "e438845e18ecf4c563d3eb441458a232941637215278ee836cab9b87e69b8f9b"
 metafile = true
@@ -7832,6 +7837,16 @@ hash = "157a33d968ad30a59edae72d0a1b870a9d8b1867601f45494072f9773e7bc21d"
 [[files]]
 file = "packmenu/resources/pack.png"
 hash = "95f962993cd12a6130babe1f467b97bebcc70a46945bda4b37e134851e434adc"
+
+[[files]]
+file = "resourcepacks/creeper-girls.pw.toml"
+hash = "38f14b24d9deb131489c578e61eeed1878d02ddcff1ee568211d8fb101e480d0"
+metafile = true
+
+[[files]]
+file = "resourcepacks/cuteanimemobs.pw.toml"
+hash = "17be4a934da499f73a16f29d35e2c61ab160df6c05ab21b5f54d8fc2bd728fe4"
+metafile = true
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.1.1.zip"

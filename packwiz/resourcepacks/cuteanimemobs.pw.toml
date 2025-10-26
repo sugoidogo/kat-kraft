@@ -1,0 +1,13 @@
+name = "CuteAnimeMobs (Discontinued)"
+filename = "WaifuCraft v1.0.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d113a64c7c029624d7ed0e987b49c7f07be1a0f4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5150787
+project-id = 981836
