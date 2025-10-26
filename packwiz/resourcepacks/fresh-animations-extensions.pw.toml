@@ -1,0 +1,13 @@
+name = "Fresh Animations: Extensions"
+filename = "FA+All_Addons-v1.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/YAVTU8mK/versions/Y6NMnayF/FA%2BAll_Addons-v1.0.zip"
+hash-format = "sha512"
+hash = "0211dae49e345c14bbb840d69c571e3ccb9aa8dfca73775d4fc1e45202cb959871bb08579042f9fccf4a26cc35f43a8725ebbc8a9ce1625e4776062295460fec"
+
+[update]
+[update.modrinth]
+mod-id = "YAVTU8mK"
+version = "Y6NMnayF"
