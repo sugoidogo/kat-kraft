@@ -1,10 +1,8 @@
 {
-	id: "32D89E2679C55D75"
-	order_index: 23
-	title: "&dTier 6 Seed Bag"
 	icon: "mysticalagradditions:insanium_gemstone"
+	id: "32D89E2679C55D75"
 	loot_size: 1
-	use_title: true
+	order_index: 25
 	rewards: [
 		{ item: "mysticalagriculture:dragon_egg_seeds" }
 		{ item: "mysticalagriculture:nether_star_seeds" }
@@ -28,4 +26,6 @@
 		{ item: "mysticalagriculture:emerald_seeds", weight: 5.0f }
 		{ item: "mysticalagriculture:diamond_seeds", weight: 7.0f }
 	]
+	title: "&dTier 6 Seed Bag"
+	use_title: true
 }

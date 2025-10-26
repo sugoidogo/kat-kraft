@@ -74,33 +74,45 @@
         "ignore": true
     },
     "de.mari_023.ae2wtlib.wct.WCTScreen": {
+        "playerSideOnly": true,
         "ignore": true
     },
-    "de.mari_023.ae2wtlib.wct.WCTMenu": {
+    "de.mari_023.ae2wtlib.wct.WETScreen": {
+        "playerSideOnly": true,
         "ignore": true
     },
-    "appeng.client.gui.me.patternaccess.PatternAccessTermScreen": {
+	"de.mari_023.ae2wtlib.wet.WETMenu": {
         "ignore": true
     },
-    "appeng.menu.implementations.PatternAccessTermMenu": {
-        "ignore": true
-    },
-    "appeng.client.gui.me.items.PatternEncodingTermScreen": {
-        "ignore": true
-    },
-    "appeng.menu.me.items.PatternEncodingTermMenu": {
-        "ignore": true
-    },
-    "de.mari_023.ae2wtlib.wat.WATScreen": {
+    "de.mari_023.ae2wtlib.wct.WATScreen": {
+        "playerSideOnly": true,
         "ignore": true
     },
     "de.mari_023.ae2wtlib.wat.WATMenu": {
         "ignore": true
     },
-    "de.mari_023.ae2wtlib.wet.WETScreen": {
+    "de.mari_023.ae2wtlib.wct.WCTMenu": {
+        "playerSideOnly": true,
         "ignore": true
     },
-    "de.mari_023.ae2wtlib.wet.WETMenu": {
+    "appeng.client.gui.me.items.PatternEncodingTermScreen": {
+        "playerSideOnly": true,
+        "ignore": true
+    },
+    "appeng.client.gui.me.items.CraftingTermScreen": {
+        "playerSideOnly": true,
+        "ignore": true
+    },
+    "com.github.glodblock.epp.client.gui.GuiExPatternTerminal": {
+        "playerSideOnly": true,
+        "ignore": true
+    },
+    "com.github.glodblock.epp.client.gui.GuiExPatternProvider": {
+        "playerSideOnly": true,
+        "ignore": true
+    },
+    "com.github.glodblock.epp.client.gui.GuiExInterface": {
+        "playerSideOnly": true,
         "ignore": true
     }
 }

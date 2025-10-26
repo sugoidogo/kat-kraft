@@ -6,18 +6,19 @@
 	icon: "allthemodium:allthemodium_ingot"
 	id: "1B175B2C955D8395"
 	order_index: 1
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["731686C758AD9A99"]
 			dependency_requirement: "one_completed"
 			description: [
-				"This lucrative ore starts your journey to becoming overpowered!"
+				"{atm9.quest.allthemodium.desc.atm_ore1}"
 				""
-				"It is found in Deep Dark biomes along ceilings and walls."
+				"{atm9.quest.allthemodium.desc.atm_ore2}"
 			]
-			hide: false
 			hide_dependency_lines: false
+			hide_until_deps_visible: false
 			id: "5BDBE666E604FCAC"
 			rewards: [
 				{
@@ -40,12 +41,26 @@
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
-				id: "75498AE05CC06F8F"
-				item: "allthemodium:raw_allthemodium"
-				title: "Allthemodium Ore"
+				id: "759E7BC43EFF648C"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "allthemodium:raw_allthemodium"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_ingot"
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.allthemodium.atm_ore}"
 				type: "item"
 			}]
-			title: "Allthemodium Ore"
 			x: -1.5d
 			y: 0.5d
 		}
@@ -53,11 +68,13 @@
 			dependencies: ["5BDBE666E604FCAC"]
 			dependency_requirement: "one_started"
 			description: [
-				"The next step in our adventure to become (nearly) invincible."
+				"{atm9.quest.allthemodium.desc.vib_ore1}"
 				""
-				"Find this rare ore in the Nether above Y64 in any biome, exposed to air. Keep an eye on the ceiling!"
+				"{atm9.quest.allthemodium.desc.vib_ore2}"
 				""
-				"You can also find this ore in any biome in the Other, between Y0 and Y40 along cave walls and ceilings."
+				"{atm9.quest.allthemodium.desc.vib_ore3}"
+				""
+				"{atm9.quest.allthemodium.desc.vib_ore4}"
 			]
 			hide_dependency_lines: false
 			id: "2DF64CB9298E91EA"
@@ -82,9 +99,24 @@
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
-				id: "0F6B68E05B7B43AB"
-				item: "allthemodium:raw_vibranium"
-				title: "Vibranium Ore"
+				id: "53CAF4DF6BD09600"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "allthemodium:raw_vibranium"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_ingot"
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.allthemodium.vib_ore}"
 				type: "item"
 			}]
 			x: 0.0d
@@ -92,11 +124,7 @@
 		}
 		{
 			dependencies: ["2DF64CB9298E91EA"]
-			description: [
-				"An extremely rare ore that can only be found after defeating the Ender Dragon."
-				""
-				"You can find this obtainable ore in the End Highlands biome."
-			]
+			description: ["{atm9.quest.allthemodium.desc.unob_ore}"]
 			hide_dependency_lines: false
 			id: "4F6E6AF1D9E74CB7"
 			rewards: [
@@ -120,21 +148,31 @@
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
-				id: "52CCB85E5967BF9F"
-				item: "allthemodium:raw_unobtainium"
+				id: "06B707D1437D36FC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "allthemodium:raw_unobtainium"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:unobtainium_ingot"
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.allthemodium.unob_ore}"
 				type: "item"
 			}]
 			x: 1.5d
 			y: 0.5d
 		}
 		{
-			dependencies: ["71A43C89EB13E9A0"]
-			description: [
-				"Extremely fast furnace."
-				""
-				"Smelts 1/4 of a stack at a time."
-			]
-			hide: true
+			description: ["{atm9.quest.allthemodium.desc.furnace}"]
 			hide_dependency_lines: false
 			id: "2CC97CF32D9C017B"
 			rewards: [{
@@ -144,212 +182,40 @@
 				type: "random"
 			}]
 			shape: "diamond"
+			size: 1.25d
 			tasks: [{
-				id: "07FF0DC32B705DCC"
-				item: "ironfurnaces:allthemodium_furnace"
+				id: "54B58D4300C033A6"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ironfurnaces:allthemodium_furnace"
+							}
+							{
+								Count: 1b
+								id: "ironfurnaces:vibranium_furnace"
+							}
+							{
+								Count: 1b
+								id: "ironfurnaces:unobtainium_furnace"
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.allthemodium.furnace_task}"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["5BDBE666E604FCAC"]
-			dependency_requirement: "one_completed"
-			description: [""]
-			hide_dependency_lines: false
-			id: "71A43C89EB13E9A0"
-			rewards: [{
-				id: "60BFD3F6B6CAE723"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "gear"
-			tasks: [{
-				id: "6A101A8056AC9A3A"
-				item: "allthemodium:allthemodium_ingot"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["2DF64CB9298E91EA"]
-			description: [""]
-			hide_dependency_lines: false
-			id: "61FDABF2C7CC1F9D"
-			rewards: [{
-				id: "2EFC640150403D08"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "gear"
-			tasks: [{
-				id: "61761B6C1D1542FD"
-				item: "allthemodium:vibranium_ingot"
-				type: "item"
-			}]
-			x: 0.0d
+			title: "{atm9.quest.allthemodium.furnace}"
+			x: -3.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["61FDABF2C7CC1F9D"]
-			description: [
-				"How fast can this possibly get!?"
-				""
-				"Smelts 1/2 of a stack at a time."
-			]
-			hide: true
-			hide_dependency_lines: false
-			id: "5CA0BA27F9C537B2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "381A235F202CAB65"
-				table_id: 5564196992594175882L
-				type: "random"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "0B2932972CD2E73E"
-				item: "ironfurnaces:vibranium_furnace"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["44760B819EB3CA68"]
-			description: [
-				"Now you are just showing off."
-				""
-				"Smelts a stack of items per operation."
-			]
-			hide: true
-			hide_dependency_lines: false
-			id: "1AFDB3AE73E72A33"
-			rewards: [
-				{
-					id: "3BE998CE25785795"
-					item: "ironfurnaces:rainbow_coal"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0F49E1534E00C41D"
-					table_id: 5564196992594175882L
-					type: "random"
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				id: "579B48ABB0CBD18A"
-				item: "ironfurnaces:unobtainium_furnace"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["71A43C89EB13E9A0"]
-			hide: true
-			hide_dependency_lines: true
-			id: "1BF186347C4683B3"
-			rewards: [
-				{
-					id: "7CEDAB343096A16E"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "653D62F921830FDA"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-			]
-			shape: "square"
-			tasks: [{
-				id: "5CCD462442A9CBC9"
-				item: {
-					Count: 1b
-					id: "allthemodium:allthemodium_boots"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -3.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["71A43C89EB13E9A0"]
-			hide: true
-			hide_dependency_lines: true
-			id: "26296F815ACC04BE"
-			rewards: [
-				{
-					id: "7B6B2810FB076635"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "10BDA8E483B8673F"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-			]
-			shape: "square"
-			tasks: [{
-				id: "7CE4D8C55D2A92A8"
-				item: {
-					Count: 1b
-					id: "allthemodium:allthemodium_leggings"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -3.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["71A43C89EB13E9A0"]
-			hide: true
-			id: "4C7718982E78D7A2"
-			rewards: [
-				{
-					id: "727160FABA1B8DF6"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "59FCC1529E6451E8"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-			]
-			shape: "square"
-			tasks: [{
-				id: "4979179C2D56C137"
-				item: {
-					Count: 1b
-					id: "allthemodium:allthemodium_chestplate"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -3.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["71A43C89EB13E9A0"]
+			dependencies: ["2BF9B347D1FC037A"]
 			dependency_requirement: "one_completed"
-			hide: true
+			hide_dependency_lines: false
 			id: "29637BD992599915"
 			rewards: [
 				{
@@ -365,31 +231,119 @@
 				}
 			]
 			shape: "square"
+			size: 1.0d
 			tasks: [{
-				id: "6F0BA8751E4F963A"
+				id: "48DD4D998FEBB09B"
 				item: {
-					Count: 1b
-					id: "allthemodium:allthemodium_helmet"
+					Count: 1
+					id: "itemfilters:or"
 					tag: {
-						Damage: 0
+						items: [
+							{
+								Count: 1b
+								id: "allthearcanistgear:allthemodium_boots"
+								tag: {
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 4
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "allthearcanistgear:allthemodium_leggings"
+								tag: {
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 4
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "allthearcanistgear:allthemodium_robes"
+								tag: {
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 4
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "allthearcanistgear:allthemodium_hat"
+								tag: {
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 4
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "allthewizardgear:allthemodium_mage_chestplate"
+								tag: {
+									ISB_Spells: {
+										data: [ ]
+										maxSpells: 1
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "allthewizardgear:allthemodium_mage_helmet"
+							}
+							{
+								Count: 1b
+								id: "allthewizardgear:allthemodium_mage_leggings"
+							}
+							{
+								Count: 1b
+								id: "allthewizardgear:allthemodium_mage_boots"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_helmet"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_chestplate"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_leggings"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_boots"
+							}
+						]
 					}
 				}
+				title: "{atm9.quest.allthemodium.atm_armor_task}"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 3.0d
+			title: "{atm9.quest.allthemodium.atm_armor}"
+			x: -1.5d
+			y: 4.0d
 		}
 		{
 			description: [
-				"&dAllthemodium&r is the core mod in all Allthemods modpacks. This mod adds endgame ores to the world that amplify your modded experience."
+				"{atm9.quest.allthemodium.desc.intro1}"
 				""
-				"You can find more info on the mod in the &9Allthemodium&r book."
+				"{atm9.quest.allthemodium.desc.intro2}"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "patchouli:guide_book"
 				tag: {
-					"patchouli:book": "allthemodium:allthemodium"
+					"patchouli:book": "allthemodium:allthemodium_book"
 				}
 			}
 			id: "731686C758AD9A99"
@@ -402,10 +356,10 @@
 				{
 					id: "0D061D49519CE0B4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "patchouli:guide_book"
 						tag: {
-							"patchouli:book": "allthemodium:allthemodium"
+							"patchouli:book": "allthemodium:allthemodium_book"
 						}
 					}
 					type: "item"
@@ -416,34 +370,13 @@
 			tasks: [{
 				dimension: "minecraft:overworld"
 				id: "159872B988A173AA"
-				title: "Exist!"
 				type: "dimension"
 			}]
-			title: "Intro to Allthemodium!"
+			title: "{atm9.quest.allthemodium.intro}"
 			x: 0.0d
 			y: -1.0d
 		}
 		{
-			dependencies: ["4F6E6AF1D9E74CB7"]
-			hide_dependency_lines: false
-			id: "44760B819EB3CA68"
-			rewards: [{
-				id: "339251D95518BB97"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "gear"
-			tasks: [{
-				id: "16A8B32CB4B011DA"
-				item: "allthemodium:unobtainium_ingot"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["71A43C89EB13E9A0"]
-			hide: true
 			hide_dependency_lines: true
 			id: "7F3B96033AB7A21E"
 			rewards: [
@@ -465,12 +398,10 @@
 				item: "allthemodium:allthemodium_apple"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 7.0d
+			x: 3.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["71A43C89EB13E9A0"]
-			hide: true
 			hide_dependency_lines: true
 			id: "15D56588634665FA"
 			rewards: [
@@ -492,13 +423,14 @@
 				item: "allthemodium:allthemodium_carrot"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 7.0d
+			x: -3.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["71A43C89EB13E9A0"]
-			hide: true
+			dependencies: ["5BDBE666E604FCAC"]
+			description: ["{atm9.quest.allthemodium.desc.atm_tools}"]
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			id: "30E6C6825D78B5F1"
 			rewards: [
 				{
@@ -513,104 +445,57 @@
 					type: "random"
 				}
 			]
-			shape: "square"
+			shape: "pentagon"
+			size: 1.0d
 			tasks: [{
-				id: "448F535D62D9FDC7"
-				item: "allthemodium:allthemodium_sword"
+				id: "37CD942230304016"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_sword"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_pickaxe"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_axe"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_shovel"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_hoe"
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.allthemodium.atm_tools_task}"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 3.0d
+			title: "{atm9.quest.allthemodium.atm_tools}"
+			x: -1.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["71A43C89EB13E9A0"]
-			hide: true
-			id: "061784A9E41AB60B"
-			rewards: [
-				{
-					id: "71119D300E20FCA2"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1824BC765BF8E54F"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-			]
-			shape: "square"
-			tasks: [{
-				id: "04FDDE47BDA0BA81"
-				item: "allthemodium:allthemodium_pickaxe"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["71A43C89EB13E9A0"]
-			hide: true
-			id: "17616C60784102A6"
-			rewards: [
-				{
-					id: "3CFEB029AFDA2A46"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3B230BDFB0C25803"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-			]
-			shape: "square"
-			tasks: [{
-				id: "153905B8A889931F"
-				item: "allthemodium:allthemodium_axe"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["71A43C89EB13E9A0"]
-			hide: true
-			id: "614B212304A85F9C"
-			rewards: [
-				{
-					id: "00F39A0913F8D233"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0F2DCE735032A0DB"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-			]
-			shape: "square"
-			tasks: [{
-				id: "1227F25DBF12B6E5"
-				item: "allthemodium:allthemodium_shovel"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["71A43C89EB13E9A0"]
 			description: [
-				"The Teleport Pad is used to teleport to 2 dimensions added by the ATM pack."
+				"{atm9.quest.allthemodium.desc.teleport1}"
 				""
-				"You can use it to get to the Mining Dimension by placing it in the overworld, then shift right clicking with an empty hand."
+				"{atm9.quest.allthemodium.desc.teleport2}"
 				""
-				"To go to the Other, do the same thing but in the Nether."
+				"{atm9.quest.allthemodium.desc.teleport3}"
+				""
+				"{atm9.quest.allthemodium.desc.teleport4}"
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "3C322474D2F2BA99"
 			rewards: [
 				{
@@ -625,27 +510,28 @@
 					type: "random"
 				}
 			]
-			shape: "diamond"
-			size: 2.0d
+			shape: "square"
+			size: 1.5d
 			tasks: [{
 				id: "004AE063EA883019"
 				item: "allthemodium:teleport_pad"
 				type: "item"
 			}]
+			title: "{atm9.quest.allthemodium.teleport}"
 			x: 0.0d
-			y: 6.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["3C322474D2F2BA99"]
 			description: [
-				"You'll find a ton of ore in the Other. It's filled to the brim with amazing ore generation, as well as Ancient Forests."
+				"{atm9.quest.allthemodium.desc.other1}"
 				""
-				"Within these Forests, you can find Ancient Berries that grant Night Vision."
+				"{atm9.quest.allthemodium.desc.other2}"
 				""
-				"This is also the only dimension that has Soul Lava and Pigliches. "
+				"{atm9.quest.allthemodium.desc.other3}"
 			]
-			hide: true
 			hide_dependency_lines: false
+			icon: "allthemodium:piglich_heart"
 			id: "58E3D29E2E034BA2"
 			rewards: [
 				{
@@ -661,24 +547,29 @@
 				}
 			]
 			tasks: [{
-				id: "7B3D9051C7A0EC60"
-				item: "allthemodium:ancient_stone"
-				type: "item"
+				dimension: "allthemodium:the_other"
+				id: "075FBA0F83548F6A"
+				type: "dimension"
 			}]
-			title: "The Other"
-			x: 1.0d
-			y: 5.5d
+			title: "{atm9.quest.allthemodium.other}"
+			x: 1.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["3C322474D2F2BA99"]
 			description: [
-				"The &9Mining Dimension&r has been reworked for 1.19!"
+				"{atm9.quest.allthemodium.desc.mining1}"
 				""
-				"There are several new layers added. Allthemodium Ore also spawns better in this dimension, as well as several new ores to the Mining World. Check it out!"
+				"{atm9.quest.allthemodium.desc.mining2}"
 			]
-			hide: true
 			hide_dependency_lines: false
-			icon: "allthemodium:raw_allthemodium"
+			icon: {
+				Count: 1
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7E8FE99A3C448413"
 			rewards: [{
 				id: "7B03C181BB8EB227"
@@ -686,98 +577,16 @@
 				xp: 100
 			}]
 			tasks: [{
-				id: "110AA18477C59A28"
-				title: "The Mining Dimension"
-				type: "checkmark"
+				dimension: "allthemodium:mining"
+				id: "7C1AC35E98DA4470"
+				type: "dimension"
 			}]
-			title: "The Mining Dimension"
-			x: -1.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["71A43C89EB13E9A0"]
-			hide: true
-			hide_dependency_lines: false
-			id: "1FBE2D8C1C3B21EE"
-			rewards: [
-				{
-					id: "63A5B1A4D4CF2B8A"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "146D2B7781B40CCD"
-					table_id: 5564196992594175882L
-					type: "random"
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				id: "21DC9A0D99003F77"
-				item: "mysticalagriculture:allthemodium_seeds"
-				type: "item"
-			}]
+			title: "{atm9.quest.allthemodium.mining}"
 			x: -1.5d
-			y: 4.0d
+			y: 7.0d
 		}
 		{
-			dependencies: ["61FDABF2C7CC1F9D"]
-			hide: true
-			hide_dependency_lines: false
-			id: "0C0DB81D3781FB33"
-			rewards: [
-				{
-					id: "15BB719B9FCE235B"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3F6FD81FD000334D"
-					table_id: 5564196992594175882L
-					type: "random"
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				id: "6CA88AF9DFAEA6B5"
-				item: "mysticalagriculture:vibranium_seeds"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["44760B819EB3CA68"]
-			hide: true
-			hide_dependency_lines: false
-			id: "3F09317D12C78271"
-			rewards: [
-				{
-					id: "473ADE08455C92A6"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0822C55E3ED4098A"
-					table_id: 5564196992594175882L
-					type: "random"
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				id: "1ACAA7497BB635C0"
-				item: "mysticalagriculture:unobtainium_seeds"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["71A43C89EB13E9A0"]
-			hide: true
+			description: ["{atm9.quest.allthemodium.desc.bees}"]
 			hide_dependency_lines: false
 			id: "5D8A3491889F2C4E"
 			rewards: [
@@ -794,98 +603,53 @@
 				}
 			]
 			shape: "diamond"
+			size: 1.25d
 			tasks: [{
-				id: "757DE5E7C84CDD47"
+				id: "1E0783DED2164C8D"
 				item: {
-					Count: 1b
-					id: "productivebees:configurable_honeycomb"
+					Count: 1
+					id: "itemfilters:or"
 					tag: {
-						EntityTag: {
-							type: "productivebees:allthemodium"
-						}
+						items: [
+							{
+								Count: 1b
+								id: "productivebees:configurable_honeycomb"
+								tag: {
+									EntityTag: {
+										type: "productivebees:allthemodium"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "productivebees:configurable_honeycomb"
+								tag: {
+									EntityTag: {
+										type: "productivebees:vibranium"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "productivebees:configurable_honeycomb"
+								tag: {
+									EntityTag: {
+										type: "productivebees:unobtainium"
+									}
+								}
+							}
+						]
 					}
 				}
+				title: "{atm9.quest.allthemodium.bees_task}"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.5d
+			title: "{atm9.quest.allthemodium.bees}"
+			x: 3.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["61FDABF2C7CC1F9D"]
-			hide: true
-			hide_dependency_lines: false
-			id: "517A9CAA342E8FA6"
-			rewards: [
-				{
-					id: "15EE8C5DD99F0F0B"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "08C9D0B4D3679B9F"
-					table_id: 5564196992594175882L
-					type: "random"
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				id: "1DF8E3A079E13541"
-				item: {
-					Count: 1b
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:vibranium"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 0.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["44760B819EB3CA68"]
-			hide: true
-			hide_dependency_lines: false
-			id: "3D6FFE360BBED088"
-			rewards: [
-				{
-					id: "6DE21C164B4D377E"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0F7489F110A30FF2"
-					table_id: 5564196992594175882L
-					type: "random"
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				id: "60DD22BBD1056077"
-				item: {
-					Count: 1b
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:unobtainium"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: 3.5d
-		}
-		{
-			dependencies: [
-				"44760B819EB3CA68"
-				"71A43C89EB13E9A0"
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2DB81CE6F647D08A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -899,15 +663,12 @@
 				item: "allthemodium:unobtainium_allthemodium_alloy_ingot"
 				type: "item"
 			}]
+			title: "{atm9.quest.allthemodium.atm_unob}"
 			x: 0.0d
-			y: 8.5d
+			y: 10.5d
 		}
 		{
-			dependencies: [
-				"44760B819EB3CA68"
-				"61FDABF2C7CC1F9D"
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3E0A6D2FAEEF22A8"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -921,15 +682,12 @@
 				item: "allthemodium:unobtainium_vibranium_alloy_ingot"
 				type: "item"
 			}]
+			title: "{atm9.quest.allthemodium.vib_unob}"
 			x: 1.5d
-			y: 8.0d
+			y: 10.0d
 		}
 		{
-			dependencies: [
-				"71A43C89EB13E9A0"
-				"61FDABF2C7CC1F9D"
-			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "38135FFD9ED64395"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -943,8 +701,9 @@
 				item: "allthemodium:vibranium_allthemodium_alloy_ingot"
 				type: "item"
 			}]
+			title: "{atm9.quest.allthemodium.atm_vib}"
 			x: -1.5d
-			y: 8.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -952,7 +711,6 @@
 				"38135FFD9ED64395"
 				"3E0A6D2FAEEF22A8"
 			]
-			hide: true
 			hide_dependency_lines: false
 			id: "7D3648FF86B0EB85"
 			rewards: [{
@@ -967,8 +725,9 @@
 				item: "allthemodium:alloy_sword"
 				type: "item"
 			}]
+			title: "{atm9.quest.allthemodium.sword}"
 			x: -0.7000000000000001d
-			y: 11.5d
+			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -976,7 +735,6 @@
 				"38135FFD9ED64395"
 				"3E0A6D2FAEEF22A8"
 			]
-			hide: true
 			hide_dependency_lines: false
 			id: "4881ABF8877BA572"
 			rewards: [{
@@ -991,8 +749,9 @@
 				item: "allthemodium:alloy_axe"
 				type: "item"
 			}]
+			title: "{atm9.quest.allthemodium.axe}"
 			x: 0.7000000000000001d
-			y: 11.5d
+			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -1000,7 +759,6 @@
 				"38135FFD9ED64395"
 				"3E0A6D2FAEEF22A8"
 			]
-			hide: true
 			hide_dependency_lines: false
 			id: "4F84C91128C9DCED"
 			rewards: [{
@@ -1015,8 +773,9 @@
 				item: "allthemodium:alloy_pick"
 				type: "item"
 			}]
+			title: "{atm9.quest.allthemodium.pickaxe}"
 			x: -2.0d
-			y: 11.5d
+			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -1024,7 +783,6 @@
 				"38135FFD9ED64395"
 				"3E0A6D2FAEEF22A8"
 			]
-			hide: true
 			hide_dependency_lines: false
 			id: "2BD4E8494F2F43E9"
 			rewards: [{
@@ -1039,8 +797,9 @@
 				item: "allthemodium:alloy_shovel"
 				type: "item"
 			}]
+			title: "{atm9.quest.allthemodium.shovel}"
 			x: 2.0d
-			y: 11.5d
+			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -1049,7 +808,6 @@
 				"2BD4E8494F2F43E9"
 				"7D3648FF86B0EB85"
 			]
-			hide: true
 			hide_dependency_lines: false
 			id: "4AD2F0AC870672DB"
 			rewards: [{
@@ -1065,9 +823,514 @@
 				item: "allthemodium:alloy_paxel"
 				type: "item"
 			}]
+			title: "{atm9.quest.allthemodium.paxel}"
 			x: 0.0d
-			y: 10.000000000000002d
+			y: 12.000000000000002d
+		}
+		{
+			dependencies: ["5BDBE666E604FCAC"]
+			description: ["{atm9.quest.allthemodium.desc.atm_smith}"]
+			hide_dependency_lines: false
+			id: "2BF9B347D1FC037A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "60583F6BAD10AF9A"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+				{
+					id: "6D990F0555B74E30"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "1F249850998F505E"
+				item: "allthemodium:allthemodium_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "{atm9.quest.allthemodium.atm_smith}"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2DF64CB9298E91EA"]
+			description: ["{atm9.quest.allthemodium.desc.vib_smith}"]
+			hide_dependency_lines: false
+			id: "0C1EC499EB16C604"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2550EE645E0608DF"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+				{
+					id: "7FACE78C8932328C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "641B47453E890867"
+				item: "allthemodium:vibranium_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "{atm9.quest.allthemodium.vib_smith}"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4F6E6AF1D9E74CB7"]
+			description: ["{atm9.quest.allthemodium.desc.unob_smith}"]
+			hide_dependency_lines: false
+			id: "1E92D4FEB8E96BBF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "288A32017FE80F19"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+				{
+					id: "5735B4806162ACBA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "0043CEE91EF992F7"
+				item: "allthemodium:unobtainium_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "{atm9.quest.allthemodium.unob_smith}"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0C1EC499EB16C604"]
+			hide_dependency_lines: false
+			id: "28260B53A3F9E57D"
+			rewards: [
+				{
+					id: "47EA865134159DDB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3924B2C4B6CDDFDA"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "7E5429C59943C661"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "allthearcanistgear:vibranium_boots"
+								tag: {
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 5
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "allthearcanistgear:vibranium_robes"
+								tag: {
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 5
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "allthearcanistgear:vibranium_leggings"
+								tag: {
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 5
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "allthearcanistgear:vibranium_hat"
+								tag: {
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 5
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "allthewizardgear:vibranium_mage_helmet"
+							}
+							{
+								Count: 1b
+								id: "allthewizardgear:vibranium_mage_chestplate"
+								tag: {
+									ISB_Spells: {
+										data: [ ]
+										maxSpells: 1
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "allthewizardgear:vibranium_mage_leggings"
+							}
+							{
+								Count: 1b
+								id: "allthewizardgear:vibranium_mage_boots"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_leggings"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_boots"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_chestplate"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_helmet"
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.allthemodium.vib_armor_task}"
+				type: "item"
+			}]
+			title: "{atm9.quest.allthemodium.vib_armor}"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1E92D4FEB8E96BBF"]
+			hide_dependency_lines: false
+			id: "777B6100B321DAA6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4BA5947D1FD02BC6"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+				{
+					id: "03FE1794BB96A38B"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "5457F63FC60BA231"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "allthearcanistgear:unobtainium_boots"
+								tag: {
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 6
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "allthearcanistgear:unobtainium_leggings"
+								tag: {
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 6
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "allthearcanistgear:unobtainium_robes"
+								tag: {
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 6
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "allthearcanistgear:unobtainium_hat"
+								tag: {
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 6
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "allthewizardgear:unobtainium_mage_leggings"
+							}
+							{
+								Count: 1b
+								id: "allthewizardgear:unobtainium_mage_boots"
+							}
+							{
+								Count: 1b
+								id: "allthewizardgear:unobtainium_mage_chestplate"
+								tag: {
+									ISB_Spells: {
+										data: [ ]
+										maxSpells: 1
+										mustEquip: 1b
+										spellWheel: 1b
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "allthewizardgear:unobtainium_mage_helmet"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:unobtainium_helmet"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:unobtainium_chestplate"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:unobtainium_leggings"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:unobtainium_boots"
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.allthemodium.unob_armor_task}"
+				type: "item"
+			}]
+			title: "{atm9.quest.allthemodium.unob_armor}"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["30E6C6825D78B5F1"]
+			hide_dependency_lines: false
+			id: "553DD7CBD4351A71"
+			rewards: [
+				{
+					id: "45B79CB58D2BE6BB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A1B7905F069FDE2"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+			]
+			shape: "pentagon"
+			size: 1.0d
+			tasks: [{
+				id: "2DB3FE929A70B1C9"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_sword"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_pickaxe"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_axe"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_shovel"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_hoe"
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.allthemodium.vib_tools_task}"
+				type: "item"
+			}]
+			title: "{atm9.quest.allthemodium.vib_tools}"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["553DD7CBD4351A71"]
+			hide_dependency_lines: false
+			id: "37ACDA018D07A4DF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "45C747E322F5EA3E"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+				{
+					id: "2BA2A9B5741FA8B0"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "pentagon"
+			size: 1.0d
+			tasks: [{
+				id: "6AC1F79015239A46"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "allthemodium:unobtainium_sword"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:unobtainium_pickaxe"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:unobtainium_axe"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:unobtainium_shovel"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:unobtainium_hoe"
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.allthemodium.unob_tools_task}"
+				type: "item"
+			}]
+			title: "{atm9.quest.allthemodium.unob_tools}"
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3C322474D2F2BA99"]
+			description: [
+				"{atm9.quest.allthemodium.desc.beyond1}"
+				""
+				"{atm9.quest.allthemodium.desc.beyond2}"
+			]
+			hide_dependency_lines: false
+			icon: "voidtotem:totem_of_void_undying"
+			id: "53DD784E75965947"
+			optional: true
+			rewards: [{
+				id: "5E779E57482952D9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				dimension: "allthemodium:the_beyond"
+				id: "5B673FC6B4C064ED"
+				type: "dimension"
+			}]
+			title: "{atm9.quest.allthemodium.beyond}"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide_details_until_startable: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "532048F1D6759FF6"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "2B5A232033859FBC"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "782BF0528469C296"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: -2.5d
 		}
 	]
-	title: "&eAllthemodium"
+	title: "{atm9.chapters.2.title}"
 }

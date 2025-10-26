@@ -1,10 +1,8 @@
 {
-	id: "21B1896C13F84C09"
-	order_index: 19
-	title: "&2Tier 2 Seed Bag"
 	icon: "mysticalagriculture:prudentium_gemstone"
+	id: "21B1896C13F84C09"
 	loot_size: 1
-	use_title: true
+	order_index: 20
 	rewards: [
 		{ item: "mysticalagriculture:nature_seeds", weight: 3.0f }
 		{ item: "mysticalagriculture:dye_seeds", weight: 3.0f }
@@ -28,7 +26,7 @@
 		{ item: "mysticalagriculture:prudentium_farmland", weight: 7.0f }
 		{ item: "mysticalagriculture:prudentium_growth_accelerator", weight: 5.0f }
 		{ item: "mysticalagriculture:prudentium_furnace", weight: 5.0f }
-		{ item: "mysticalagriculture:prudentium_essence", count: 4, random_bonus: 4, weight: 10.0f }
+		{ count: 4, item: "mysticalagriculture:prudentium_essence", random_bonus: 4, weight: 10.0f }
 		{ item: "mysticalagriculture:prudentium_ingot", random_bonus: 2, weight: 7.0f }
 		{ item: "mysticalagriculture:prudentium_gemstone", weight: 5.0f }
 		{ item: "mysticalagriculture:pig_seeds" }
@@ -40,4 +38,6 @@
 		{ item: "mysticalagriculture:slime_seeds" }
 		{ item: "mysticalagriculture:turtle_seeds" }
 	]
+	title: "&2Tier 2 Seed Bag"
+	use_title: true
 }

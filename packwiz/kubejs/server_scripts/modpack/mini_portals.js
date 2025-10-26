@@ -1,14 +1,29 @@
-ServerEvents.recipes(event => {
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
+ServerEvents.recipes(allthemods => {
 	
 // Twilight Mini Structure
-	event.custom({
+	allthemods.custom({
 	"type": "mysticalagriculture:awakening",
-	"essences": {
-    "air": 40,
-    "earth": 40,
-    "water": 40,
-    "fire": 40
-  },
+	"essences": [
+    {
+      "item": "mysticalagriculture:air_essence",
+      "count": 40
+    },
+    {
+      "item": "mysticalagriculture:earth_essence",
+      "count": 40
+    },
+    {
+      "item": "mysticalagriculture:water_essence",
+      "count": 40
+    },
+    {
+      "item": "mysticalagriculture:fire_essence",
+      "count": 40
+    }
+  ],
   "input": {
     "item": "twilightforest:snow_queen_trophy"
   },
@@ -29,120 +44,93 @@ ServerEvents.recipes(event => {
   "result": {
     "item": "twilightforest:twilight_portal_miniature_structure"
 	}
-	}).id(`kubejs:awakening/twilight_portal_miniature_structure`)
+	}).id(`allthemods:awakening/twilight_portal_miniature_structure`)
 
 // Mini Nether
-	event.shaped('allthetweaks:mini_nether', ['ADA', 'BCB', 'AEA'], {
+	allthemods.shaped('allthetweaks:mini_nether', ['ADA', 'BCB', 'AEA'], {
     A: 'minecraft:obsidian',
     B: 'minecraft:nether_star',
     C: Item.of('mekanism:teleportation_core', "{HideFlags:1,display:{Name:'[{\"text\":\"Nether Infused Teleportation Core\",\"italic\":false}]'}}").enchant('unbreaking', 1).strongNBT().toJson(),
 	D: 'minecraft:wither_skeleton_skull',
 	E: 'minecraft:warped_nylium'
 
-  }).id('kubejs:allthetweaks/mini_nether')
-  
+  }).id('allthemods:allthetweaks/mini_nether')
+
 // Nether Infused Teleportation Core
-	event.custom({
-  "type": "elementalcraft:binding",
-  "element_amount": 10000,
-  "element_type": "fire",
-  "ingredients": [
-    {
-      "item": "mekanism:teleportation_core"
+  allthemods.custom({
+    type: "apotheosis:enchanting",
+    input: {
+      item: "mekanism:teleportation_core"
     },
-	{
-      "item": "elementalcraft:purecrystal"
+    requirements: {
+      eterna: 40,
+      quanta: 15,
+      arcana: 60
     },
-	{
-      "item": "minecraft:netherite_block"
+    max_requirements: {
+      eterna: -1,
+      quanta: 25,
+      arcana: -1
     },
-    
-	Item.of('elementalcraft:jewel', '{elementalcraft:{jewel:"elementalcraft:piglin"}}').strongNBT().toJson(),
-    
-    {
-      "item": "minecraft:netherite_block"
-    },
-    {
-      "item": "elementalcraft:purecrystal"
-    }
-  ],
-  "output": Item.of('mekanism:teleportation_core', "{HideFlags:1,display:{Name:'[{\"text\":\"Nether Infused Teleportation Core\",\"italic\":false}]'}}").enchant('unbreaking', 1).toJson()
-}).id('kubejs:allthetweaks/nether_core')
+    result: Item.of('mekanism:teleportation_core', "{HideFlags:1,display:{Name:'[{\"text\":\"Nether Infused Teleportation Core\",\"italic\":false}]'}}").enchant('unbreaking', 1).toJson()
+  }).id("allthemods:allthetweaks/nether_core")
   
   // Mini End
-	event.shaped('allthetweaks:mini_end', ['ABA', 'BCB', 'ABA'], {
+	allthemods.shaped('allthetweaks:mini_end', ['ABA', 'BCB', 'ABA'], {
     A: 'additional_lights:fire_pit_s_end_stone',
     B: 'minecraft:ender_eye',
     C: Item.of('mekanism:teleportation_core', "{HideFlags:1,display:{Name:'[{\"text\":\"Ender Infused Teleportation Core\",\"italic\":false}]'}}").enchant('unbreaking', 1).strongNBT().toJson()
 
-  }).id('kubejs:allthetweaks/mini_end')
-  
+  }).id('allthemods:allthetweaks/mini_end')
+
 // Ender Infused Teleportation Core
-	event.custom({
-  "type": "elementalcraft:binding",
-  "element_amount": 10000,
-  "element_type": "air",
-  "ingredients": [
-    {
-      "item": "mekanism:teleportation_core"
-    },
-	{
-      "item": "elementalcraft:purecrystal"
-    },
-	{
-      "item": "allthetweaks:ender_pearl_block"
-    },
-    
-	Item.of('elementalcraft:jewel', '{elementalcraft:{jewel:"elementalcraft:demigod"}}').strongNBT().toJson(),
-    
-    {
-      "item": "allthetweaks:ender_pearl_block"
-    },
-    {
-      "item": "elementalcraft:purecrystal"
-    }
-  ],
-  "output": Item.of('mekanism:teleportation_core', "{HideFlags:1,display:{Name:'[{\"text\":\"Ender Infused Teleportation Core\",\"italic\":false}]'}}").enchant('unbreaking', 1).toJson()
-}).id('kubejs:allthetweaks/ender_core')
-  
+allthemods.custom({
+  type: "apotheosis:enchanting",
+  input: {
+    item: "mekanism:teleportation_core"
+  },
+  requirements: {
+    eterna: 50,
+    quanta: 8.5,
+    arcana: 32.5
+  },
+  max_requirements: {
+    eterna: 50,
+    quanta: 13.5,
+    arcana: 37.5
+  },
+  result: Item.of('mekanism:teleportation_core', "{HideFlags:1,display:{Name:'[{\"text\":\"Ender Infused Teleportation Core\",\"italic\":false}]'}}").enchant('unbreaking', 1).toJson()
+}).id("allthemods:allthetweaks/ender_core")
   
 // Mini Exit
-	event.shaped('allthetweaks:mini_exit', ['ABA', 'DCD', 'ADA'], {
+	allthemods.shaped('allthetweaks:mini_exit', ['ABA', 'DCD', 'ADA'], {
     A: 'additional_lights:fire_pit_s_end_stone',
     B: 'minecraft:dragon_egg',
     C: Item.of('mekanism:teleportation_core', "{HideFlags:1,display:{Name:'[{\"text\":\"Draconic Infused Teleportation Core\",\"italic\":false}]'}}").enchant('unbreaking', 1).strongNBT().toJson(),
 	D: 'minecraft:end_crystal'
 
-  }).id('kubejs:allthetweaks/mini_exit')
- 
+  }).id('allthemods:allthetweaks/mini_exit')
  
 // Draconic Infused Teleportation Core
-	event.custom({
-  "type": "elementalcraft:binding",
-  "element_amount": 10000,
-  "element_type": "fire",
-  "ingredients": [
-    {
-      "item": "mekanism:teleportation_core"
-    },
-	{
-      "item": "elementalcraft:purecrystal"
-    },
-	{
-      "item": "minecraft:dragon_egg"
-    },
-    
-	Item.of('elementalcraft:jewel', '{elementalcraft:{jewel:"elementalcraft:phoenix"}}').strongNBT().toJson(),
-    
-    {
-      "item": "minecraft:dragon_egg"
-    },
-    {
-      "item": "elementalcraft:purecrystal"
-    }
-  ],
-  "output": Item.of('mekanism:teleportation_core', "{HideFlags:1,display:{Name:'[{\"text\":\"Draconic Infused Teleportation Core\",\"italic\":false}]'}}").enchant('unbreaking', 1).toJson()
-}).id('kubejs:allthetweaks/draco_core')
-  
+allthemods.custom({
+  type: "apotheosis:enchanting",
+  input: {
+    item: "mekanism:teleportation_core"
+  },
+  requirements: {
+    eterna: 50,
+    quanta: 45,
+    arcana: 100
+  },
+  max_requirements: {
+    eterna: 50,
+    quanta: 50,
+    arcana: 100
+  },
+  result: Item.of('mekanism:teleportation_core', "{HideFlags:1,display:{Name:'[{\"text\":\"Draconic Infused Teleportation Core\",\"italic\":false}]'}}").enchant('unbreaking', 1).toJson()
+}).id("allthemods:allthetweaks/draco_core")
   
 })
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

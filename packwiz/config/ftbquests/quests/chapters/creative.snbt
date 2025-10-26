@@ -2,14 +2,11 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "hexagon"
 	filename: "creative"
-	group: ""
+	group: "2084F3F6FB861C5B"
 	icon: "functionalstorage:creative_vending_upgrade"
 	id: "16956970FF49BB4D"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 4.0d
 			hover: ["What do I do with the ATM Star?"]
 			image: "atm:textures/questpics/creative.png"
@@ -19,11 +16,7 @@
 			y: -4.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "allthetweaks:textures/item/atm_star.png"
 			rotation: 20.0d
 			width: 2.0d
@@ -31,11 +24,7 @@
 			y: -3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "allthetweaks:textures/item/atm_star.png"
 			rotation: -20.0d
 			width: 2.0d
@@ -44,28 +33,67 @@
 		}
 	]
 	order_index: 2
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"If you make 9 Stars, or enough to make an ATM Star Block, you'll be able to create a &dStarry Bee&r. This bee gives you &6ATM Star Shards&r from their combs."
-				""
-				"Oh, and they will also need another ATM Star Block for their flower! Simple enough, right?"
-			]
-			hide: true
+			dependencies: ["464D0C17601E8A2B"]
+			description: ["{atm9.quest.chapter3.desc.welcome}"]
 			hide_dependency_lines: true
 			id: "6E6FDF551EA4FF1A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "67F23EEF5F58C3B1"
-				table_id: 5196609362437981520L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					id: "13C7B1760109C468"
+					item: {
+						Count: 1
+						id: "allthemodium:alloy_axe"
+						tag: {
+							affix_data: {
+								affixes: {
+									"apotheosis:durable": 0.8f
+									"apotheosis:heavy_weapon/attribute/annihilating": 0.20009226f
+									"apotheosis:heavy_weapon/attribute/berserking": 0.34490293f
+									"apotheosis:heavy_weapon/attribute/giant_slaying": 0.80212396f
+									"apotheosis:heavy_weapon/attribute/murderous": 0.9636011f
+									"apotheosis:heavy_weapon/attribute/shredding": 0.52882904f
+									"apotheosis:heavy_weapon/special/cleaving": 0.57667243f
+									"apotheosis:heavy_weapon/special/executing": 0.42035472f
+									"apotheosis:sword/mob_effect/elusive": 0.27058095f
+								}
+								name: "{\"color\":\"rainbow\",\"translate\":\"%2$s\",\"with\":[\"\",\"\"]}"
+								rarity: "apotheosis:ancient"
+								sockets: 5
+								uuids: [[I;
+									458049447
+									-427996311
+									-1781331551
+									1681014930
+								]]
+							}
+							display: {
+								Name: "{\"text\":\"Ultimate Axe of AlfredGG\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AC6632FD554B8F2"
+					item: "reliquary:pedestals/passive/white_passive_pedestal"
+					type: "item"
+				}
+				{
+					id: "1F4E8436E25D423D"
+					type: "xp_levels"
+					xp_levels: 1000
+				}
+			]
 			shape: "hexagon"
 			size: 3.0d
-			subtitle: "Enough to make everything in the pack?"
+			subtitle: "{atm9.quest.chapter3.subt.welcome}"
 			tasks: [
 				{
+					count: 2L
 					id: "529AEED3E1A07228"
 					item: "allthetweaks:atm_star_block"
 					type: "item"
@@ -73,7 +101,7 @@
 				{
 					id: "5C995984E37F6C5A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -84,96 +112,12 @@
 					type: "item"
 				}
 			]
-			title: "Set For Life"
+			title: "{atm9.quest.chapter3.welcome}"
 			x: 0.0d
-			y: 2.0d
+			y: -0.5d
 		}
 		{
-			hide: true
-			hide_dependency_lines: true
-			id: "3DA9649DC32DDF7C"
-			rewards: [
-				{
-					id: "1483F0383FB2B474"
-					type: "xp"
-					xp: 1000
-				}
-				{
-					exclude_from_claim_all: true
-					id: "79842687DABAFC31"
-					table_id: 7175652334583451871L
-					type: "choice"
-				}
-			]
-			shape: "diamond"
-			size: 2.0d
-			tasks: [{
-				id: "425542D0B83DFC9E"
-				item: "allthetweaks:atm_star_shard"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["3DA9649DC32DDF7C"]
-			id: "4F420AB27F056D9C"
-			optional: true
-			rewards: [
-				{
-					count: 64
-					id: "19B74A3FD58E767F"
-					item: "pipez:universal_pipe"
-					type: "item"
-				}
-				{
-					id: "7AABD1369C9574CC"
-					type: "xp"
-					xp: 1000
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0F0A6F37DB362775"
-					table_id: 7175652334583451871L
-					type: "choice"
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				id: "23419C4DB7C1E5CB"
-				item: "pipez:infinity_upgrade"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["3DA9649DC32DDF7C"]
-			id: "182FD093AEDC84D4"
-			optional: true
-			rewards: [
-				{
-					id: "2F45E675F1DAD3BB"
-					type: "xp"
-					xp: 1000
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2F9B052AA439096B"
-					table_id: 7175652334583451871L
-					type: "choice"
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				id: "13CDE75623F0EBD5"
-				item: "thermal:machine_efficiency_creative_augment"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -1.0d
-		}
-		{
+			dependencies: ["464D0C17601E8A2B"]
 			hide_dependency_lines: true
 			id: "3F833B656A0DBB0E"
 			optional: true
@@ -184,17 +128,17 @@
 				type: "choice"
 			}]
 			shape: "hexagon"
-			size: 1.5d
 			tasks: [{
 				id: "5973E65E0C940E27"
 				item: "ars_nouveau:creative_spell_book"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.0d
+			title: "{atm9.quest.chapter3.spells}"
+			x: -3.0d
+			y: 0.0d
 		}
 		{
-			hide: true
+			dependencies: ["464D0C17601E8A2B"]
 			hide_dependency_lines: true
 			id: "2CF11A70229000AB"
 			optional: true
@@ -218,11 +162,12 @@
 					type: "item"
 				}
 			]
-			title: "Getting Create-ive."
-			x: 1.5d
-			y: 3.5d
+			title: "{atm9.quest.chapter3.create}"
+			x: 2.0d
+			y: -1.5d
 		}
 		{
+			dependencies: ["464D0C17601E8A2B"]
 			hide_dependency_lines: true
 			id: "5C7B81756CA58056"
 			optional: true
@@ -239,11 +184,12 @@
 				item: "botania:creative_pool"
 				type: "item"
 			}]
-			title: "Infinite Mana"
+			title: "{atm9.quest.chapter3.mana}"
 			x: -2.0d
-			y: 2.0d
+			y: -1.5d
 		}
 		{
+			dependencies: ["464D0C17601E8A2B"]
 			id: "695C8159D28F16B7"
 			optional: true
 			rewards: [{
@@ -259,10 +205,12 @@
 				item: "ars_nouveau:creative_source_jar"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.5d
+			title: "{atm9.quest.chapter3.source}"
+			x: 2.0d
+			y: 0.5d
 		}
 		{
+			dependencies: ["464D0C17601E8A2B"]
 			id: "653487501398DECA"
 			optional: true
 			rewards: [{
@@ -275,19 +223,22 @@
 			tasks: [{
 				id: "5C777F84736455DA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ironjetpacks:jetpack"
 					tag: {
 						Id: "ironjetpacks:creative"
 						Throttle: 1.0d
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.5d
+			title: "{atm9.quest.chapter3.jetpack}"
+			x: -2.0d
+			y: 0.5d
 		}
 		{
+			dependencies: ["464D0C17601E8A2B"]
 			id: "58095E9EBC6FF9B2"
 			optional: true
 			rewards: [{
@@ -299,7 +250,7 @@
 			tasks: [{
 				id: "317121010F937E4F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -333,11 +284,12 @@
 				title: "Creative Power Options"
 				type: "item"
 			}]
-			title: "Creative Power"
-			x: 1.0d
-			y: 4.5d
+			title: "{atm9.quest.chapter3.powah}"
+			x: 3.0d
+			y: -1.0d
 		}
 		{
+			dependencies: ["464D0C17601E8A2B"]
 			id: "721EA7CB1CBBFD14"
 			optional: true
 			rewards: [{
@@ -349,7 +301,7 @@
 			tasks: [{
 				id: "19CB734FC0897E75"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -370,88 +322,12 @@
 				title: "Creative Virtual Storage Power"
 				type: "item"
 			}]
-			title: "Creative Virtual Storage Power"
-			x: -1.0d
-			y: 4.5d
+			title: "{atm9.quest.chapter3.storage}"
+			x: 3.0d
+			y: 0.0d
 		}
 		{
-			id: "6F70EB5F9F0BA99A"
-			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4ADAC1DBDB671262"
-				table_id: 7175652334583451871L
-				type: "choice"
-			}]
-			tasks: [{
-				id: "059DEEEF01B04A2E"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "elementalcraft:creative_container"
-								tag: {
-									BlockEntityTag: {
-										element_storage: {
-											element_amount: 1000000
-											element_capacity: 1000000
-											element_type: "water"
-										}
-									}
-								}
-							}
-							{
-								Count: 1b
-								id: "elementalcraft:creative_container"
-								tag: {
-									BlockEntityTag: {
-										element_storage: {
-											element_amount: 1000000
-											element_capacity: 1000000
-											element_type: "fire"
-										}
-									}
-								}
-							}
-							{
-								Count: 1b
-								id: "elementalcraft:creative_container"
-								tag: {
-									BlockEntityTag: {
-										element_storage: {
-											element_amount: 1000000
-											element_capacity: 1000000
-											element_type: "earth"
-										}
-									}
-								}
-							}
-							{
-								Count: 1b
-								id: "elementalcraft:creative_container"
-								tag: {
-									BlockEntityTag: {
-										element_storage: {
-											element_amount: 1000000
-											element_capacity: 1000000
-											element_type: "air"
-										}
-									}
-								}
-							}
-						]
-					}
-				}
-				title: "Creative Elements"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 5.5d
-		}
-		{
+			dependencies: ["464D0C17601E8A2B"]
 			id: "6C706326381CE611"
 			optional: true
 			rewards: [{
@@ -463,7 +339,7 @@
 			tasks: [{
 				id: "7052974A3E7D3DF2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -481,20 +357,20 @@
 				title: "Creative Pressure"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 5.5d
+			title: "{atm9.quest.chapter3.pressure}"
+			x: -3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6E6FDF551EA4FF1A"]
-			description: ["Now you are ready to get the Gregstar in ATM 9!"]
-			hide: true
+			description: ["{atm9.quest.chapter3.desc.blocks}"]
 			hide_dependency_lines: true
 			id: "0019BAE826902B4A"
 			optional: true
 			rewards: [{
-				id: "05DA3CA66B4300E8"
-				item: "allthetweaks:atm_star_shard"
-				type: "item"
+				id: "248CEF5CDCC4D98C"
+				type: "xp_levels"
+				xp_levels: 10000
 			}]
 			size: 3.0d
 			tasks: [{
@@ -502,10 +378,94 @@
 				item: "allthecompressed:atm_star_block_9x"
 				type: "item"
 			}]
-			title: "But...why?"
+			title: "{atm9.quest.chapter3.blocks}"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["464D0C17601E8A2B"]
+			id: "39BD43AAEFBD5609"
+			optional: true
+			rewards: [
+				{
+					id: "0F1BEDEC9A4A479D"
+					type: "xp_levels"
+					xp_levels: 5000
+				}
+				{
+					id: "04566CE860FF3B61"
+					item: {
+						Count: 1
+						id: "gtceu:polybenzimidazole_plunger"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								AttackDamage: 0.0f
+								AttackSpeed: -2.4f
+								Damage: 0
+								MaxDamage: 127
+							}
+							HideFlags: 2
+							display: {
+								Name: "{\"text\":\"Not a Neutronium Plunger\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "{atm9.quest.chapter3.subt.greg}"
+			tasks: [{
+				id: "45119551D2C9EE55"
+				item: "allthetweaks:greg_star"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter3.greg}"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide_details_until_startable: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "7B82BB23454C6D44"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "543A08791D27BC62"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "71F7DA56C55F4676"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
 			x: 0.0d
-			y: 7.5d
+			y: 1.5d
 		}
 	]
-	title: "&dCreative "
+	title: "{atm9.chapters.7.title}"
 }

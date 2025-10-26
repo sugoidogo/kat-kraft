@@ -1,6 +1,15 @@
 {
-    "max_length": 8,
-    "ore": "alltheores:zinc_ore",
-    "size_variation": 0.7,
-    "weight": 24
+  "blocks": [
+    {
+      "block": "alltheores:zinc_ore",
+      "weight": 24
+    },
+    {
+      "block": "alltheores:raw_zinc_block",
+      "weight": 1
+    }
+  ],
+  "max_length": 8,
+  "size_variation": 0.7,
+  "weight": 12
 }

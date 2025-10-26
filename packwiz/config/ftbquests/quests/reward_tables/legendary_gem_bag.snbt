@@ -1,6 +1,6 @@
 {
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "apotheosis:gem"
 		tag: {
 			gem: "apotheosis:core/warlord"
@@ -9,185 +9,269 @@
 	}
 	id: "32CB28874F648ECF"
 	loot_size: 1
-	order_index: 45
+	order_index: 67
 	rewards: [
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
 					gem: "apotheosis:core/ballast"
-					rarity: "mythic"
 				}
 			}
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
 					gem: "apotheosis:core/brawlers"
-					rarity: "mythic"
 				}
 			}
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
 					gem: "apotheosis:core/breach"
-					rarity: "mythic"
 				}
 			}
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
 					gem: "apotheosis:core/combatant"
-					rarity: "mythic"
 				}
 			}
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
 					gem: "apotheosis:core/guardian"
-					rarity: "mythic"
 				}
 			}
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
 					gem: "apotheosis:core/lightning"
-					rarity: "mythic"
 				}
 			}
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
+					gem: "apotheosis:core/lunar"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
 					gem: "apotheosis:core/samurai"
-					rarity: "mythic"
 				}
 			}
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
+					gem: "apotheosis:core/slipstream"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
+					gem: "apotheosis:core/solar"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
 					gem: "apotheosis:core/splendor"
-					rarity: "mythic"
 				}
 			}
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
 					gem: "apotheosis:core/tyrannical"
-					rarity: "mythic"
 				}
 			}
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
 					gem: "apotheosis:core/warlord"
-					rarity: "mythic"
 				}
 			}
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
+					gem: "irons_spellbooks:intelligent"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
 					gem: "apotheosis:overworld/earth"
-					rarity: "mythic"
 				}
 			}
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
 					gem: "apotheosis:overworld/royalty"
-					rarity: "mythic"
 				}
 			}
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
 					gem: "apotheosis:the_end/endersurge"
-					rarity: "mythic"
 				}
 			}
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
 					gem: "apotheosis:the_end/mageslayer"
-					rarity: "mythic"
 				}
 			}
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
 					gem: "apotheosis:the_nether/blood_lord"
-					rarity: "mythic"
 				}
 			}
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
 					gem: "apotheosis:the_nether/inferno"
-					rarity: "mythic"
 				}
 			}
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
 					gem: "apotheosis:twilight/forest"
-					rarity: "mythic"
 				}
 			}
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "apotheosis:gem"
 				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
 					gem: "apotheosis:twilight/queen"
-					rarity: "mythic"
 				}
 			}
 		}

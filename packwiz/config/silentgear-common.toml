@@ -91,6 +91,14 @@
 	damageFactorLevels = 10
 	#If true, gear breaks permanently, like vanilla tools and armor
 	breaksPermanently = false
+	#The item tier assigned to gear tool items.
+	#Leave this alone unless you are trying to work around mod compatibility issues!
+	#Normally, this value is not used for anything. But some mods mistakenly check it.
+	dummyToolTier = "WOOD"
+	#The armor material assigned to the gear armor items.
+	#Leave this alone unless you are trying to work around mod compatibility issues!
+	#Normally, this value is not used for anything. But some mods mistakenly check it.
+	dummyArmorMaterial = "LEATHER"
 
 	[gear.enchanting]
 		#Allow gear items to be enchanted by normal means (enchanting table, etc.)
@@ -138,6 +146,7 @@
 	[gear.upgrades]
 		#If true, upgrade parts may only be applied in an anvil.
 		applyInAnvilOnly = false
+		#If true, parts that are replaced (swapped out) of a gear item are not returned to the player and are instead destroyed.
 		#This applies to the recipe where placing a gear item and a part into a crafting grid will swap out the part.
 		destroySwappedParts = false
 
@@ -191,6 +200,7 @@
 		worldGen = true
 
 [other]
+	#Shows a "WIP" (work in progress) label in the tooltip of certain unfinished, but usable blocks and items
 	#Set to false to remove the text from tooltips
 	showWipText = true
 

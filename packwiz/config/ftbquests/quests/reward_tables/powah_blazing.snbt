@@ -1,9 +1,7 @@
 {
 	id: "1C750D27FEF7C386"
-	order_index: 36
-	title: "Powah: Blazing Loot Reward"
 	loot_size: 1
-	use_title: true
+	order_index: 32
 	rewards: [
 		{ item: "powah:capacitor_hardened", random_bonus: 1, weight: 10.0f }
 		{ item: "powah:capacitor_blazing", random_bonus: 1, weight: 10.0f }
@@ -16,4 +14,6 @@
 		{ item: "powah:energized_steel_block", weight: 2.0f }
 		{ item: "powah:blazing_crystal_block" }
 	]
+	title: "Powah: Blazing Loot Reward"
+	use_title: true
 }

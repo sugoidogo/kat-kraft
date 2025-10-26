@@ -1,13 +1,13 @@
 name = "Ars Énergistique"
-filename = "arseng-1.0.0.jar"
+filename = "arseng-1.2.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ec558957f2eac169ba1e8c563ca7de15ecdfb831"
+hash = "0866c840609d8872e84a4d52bbb2542699e88755"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4759287
+file-id = 5504444
 project-id = 905641

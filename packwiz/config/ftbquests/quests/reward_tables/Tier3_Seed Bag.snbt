@@ -1,10 +1,8 @@
 {
-	id: "6B7F78B9150AFFEE"
-	order_index: 20
-	title: "&cTier 3 Seed Bag"
 	icon: "mysticalagriculture:tertium_gemstone"
+	id: "6B7F78B9150AFFEE"
 	loot_size: 1
-	use_title: true
+	order_index: 24
 	rewards: [
 		{ item: "mysticalagriculture:tertium_farmland", weight: 5.0f }
 		{ item: "mysticalagriculture:iron_seeds", weight: 2.0f }
@@ -25,9 +23,6 @@
 		{ item: "mysticalagriculture:creeper_seeds" }
 		{ item: "mysticalagriculture:skeleton_seeds", weight: 3.0f }
 		{ item: "mysticalagriculture:lead_seeds", weight: 3.0f }
-		{ item: "mysticalagriculture:blizz_seeds" }
-		{ item: "mysticalagriculture:blitz_seeds" }
-		{ item: "mysticalagriculture:basalz_seeds" }
 		{ item: "mysticalagriculture:certus_quartz_seeds", weight: 2.0f }
 		{ item: "mysticalagriculture:quartz_enriched_iron_seeds" }
 		{ item: "mysticalagriculture:no_fall_damage_augment" }
@@ -41,4 +36,6 @@
 		{ item: "mysticalagradditions:tertium_coal", random_bonus: 3, weight: 5.0f }
 		{ item: "mysticalagradditions:tertium_coal_block", weight: 3.0f }
 	]
+	title: "&cTier 3 Seed Bag"
+	use_title: true
 }

@@ -1,2 +1,2 @@
 # Kat Kraft
-a modpack based on ATM8
+a modpack based on ATM9

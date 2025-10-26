@@ -1,0 +1,7 @@
+name = "towers-of-the-wild-modded"
+filename = "totw_modded-forge-1.20.1-1.0.6.jar"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/6353/903/totw_modded-forge-1.20.1-1.0.6.jar"
+hash-format = "sha256"
+hash = "d8473b6c3652fd2a3b1dedbed9e128920595157c1914da781cf34136efbba2ff"

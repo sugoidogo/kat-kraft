@@ -1,6 +1,15 @@
 {
-    "max_length": 8,
-    "ore": "alltheores:aluminum_ore",
-    "size_variation": 0.7,
-    "weight": 24
+  "blocks": [
+    {
+      "block": "alltheores:aluminum_ore",
+      "weight": 24
+    },
+    {
+      "block": "alltheores:raw_aluminum_block",
+      "weight": 1
+    }
+  ],
+  "max_length": 8,
+  "size_variation": 0.7,
+  "weight": 12
 }

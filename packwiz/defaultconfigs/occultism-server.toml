@@ -15,6 +15,8 @@
 	controllerStackSize = 1024
 	#True to use the configured controllerStackSize for all items, instead of the stack sizes provided by item type (such as 16 for ender pearls, 64 for iron ingot). WARNING: Setting this to false may have a negative impact on performance.
 	overrideItemStackSizes = true
+	#True to use the configured controllerStackSize for all items, instead of the stack sizes provided by item type (such as 16 for ender pearls, 64 for iron ingot). WARNING: Setting this to false may have a negative impact on performance.
+	unlinkWormholeOnBreak = false
 
 #Spirit Job Settings
 [spirit_job]
@@ -61,9 +63,15 @@
 	enableRemainingIngredientCountMatching = false
 	#Set a value below 1.0 to speed up rituals.
 	#Range: 0.05 ~ 1.7976931348623157E308
-	ritualDurationMultiplier = 0.5
-	#By default spirit names are generated at random from lists of possible syllables. If you instead want to specify the possible spirit names directly, configure a list of values here.
+	ritualDurationMultiplier = 0.25
+	#By default spirit names are generated randomly. This list can be used as an additional source of spirit names, or even a full replacement, depending on the configuration of "usePossibleSpiritNamesChance".
 	possibleSpiritNames = []
+	#0.0 (default) to only use random names.
+	#1.0 to only use the names in "possibleSpiritNames"
+	#0.1-0.9 to use a mix of both, the higher the value the higher the chance of using a name from this list instead of a random name.
+	#Will be ignored if "possibleSpiritNames" is empty.
+	#Range: 0.0 ~ 1.0
+	usePossibleSpiritNamesChance = 0.0
 
 #Dimensional Mineshaft Settings
 [dimensional_mineshaft]
@@ -103,9 +111,4 @@
 		rollsPerOperation = 1
 		#The amount of mining operations the spirit can perform before breaking.
 		durability = 1600
-
-#Item Settings
-[items]
-	#Entity types that cannot be captured in a soul gem. Specify by their full id, e.g "minecraft:zombie"
-	soulgemEntityDenyList = ["minecraft:wither"]
 

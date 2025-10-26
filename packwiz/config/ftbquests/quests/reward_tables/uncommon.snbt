@@ -6,7 +6,7 @@
 	rewards: [
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "reliquary:handgun"
 				tag: {
 					bulletCount: 8s
@@ -19,7 +19,7 @@
 		{ item: "mob_grinding_utils:saw", weight: 3.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "modularrouters:distributor_module"
 				tag: {
 					modularrouters: {
@@ -30,7 +30,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "modularrouters:energy_distributor_module"
 				tag: {
 					modularrouters: {
@@ -42,7 +42,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "modularrouters:puller_module_2"
 				tag: {
 					modularrouters: {
@@ -58,7 +58,7 @@
 		{ item: "mekanism:advanced_tier_installer" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "mekanism:basic_energy_cube"
 				tag: {
 					mekData: {
@@ -74,7 +74,7 @@
 		{ item: "mekanismgenerators:wind_generator", weight: 5.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -87,7 +87,7 @@
 		{ item: "minecraft:netherite_ingot" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "potionsmaster:netherite_sight"
@@ -96,7 +96,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "potionsmaster:diamond_sight"
@@ -108,7 +108,7 @@
 		{ item: "mob_grinding_utils:rotten_egg", weight: 2.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "ironjetpacks:jetpack"
 				tag: {
 					Id: "ironjetpacks:iron"
@@ -118,17 +118,10 @@
 		}
 		{ item: "hostilenetworks:sim_chamber" }
 		{ item: "hostilenetworks:loot_fabricator" }
-		{
-			item: {
-				Count: 1b
-				id: "hexerei:willow_broom"
-				tag: { }
-			}
-		}
 		{ item: "functionalstorage:gold_upgrade", weight: 2.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "enderchests:ender_chest"
 				tag: {
 					code: "000"
@@ -137,23 +130,18 @@
 			}
 			weight: 2.0f
 		}
-		{ item: "thermal:upgrade_augment_1" }
 		{ item: "sophisticatedbackpacks:void_upgrade", weight: 2.0f }
 		{ item: "dankstorage:dank_3" }
-		{ item: "apotheosis:vial_of_expulsion" }
 		{ item: "ars_nouveau:glyph_accelerate" }
-		{ item: "apotheosis:vial_of_extraction" }
 		{ item: "ars_nouveau:glyph_aoe" }
 		{ item: "reliquary:lantern_of_paranoia", weight: 2.0f }
 		{ item: "sophisticatedbackpacks:stack_upgrade_tier_1", weight: 5.0f }
 		{ item: "sophisticatedstorage:stack_upgrade_tier_1", weight: 5.0f }
-		{ item: "compactmachines:machine_giant" }
 		{ count: 2, item: "apotheosis:gem_dust", random_bonus: 4, weight: 10.0f }
 		{ item: "sophisticatedstorage:void_upgrade", weight: 10.0f }
-		{ item: "thermal:machine_insolator" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "sophisticatedstorage:iron_chest"
 				tag: {
 					woodType: "oak"
@@ -176,7 +164,7 @@
 		{ item: "minecraft:emerald_block", weight: 10.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "potionsmaster:diamond_sight"
@@ -186,7 +174,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "potionsmaster:gold_sight"
@@ -196,7 +184,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "potionsmaster:iron_sight"
@@ -206,7 +194,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "potionsmaster:redstone_sight"
@@ -219,8 +207,6 @@
 		{ count: 2, item: "croptopia:toast", random_bonus: 4, weight: 20.0f }
 		{ count: 2, item: "croptopia:buttered_toast", random_bonus: 4, weight: 7.0f }
 		{ count: 2, item: "croptopia:avocado_toast", random_bonus: 4, weight: 5.0f }
-		{ item: "delightful:deluxe_cheeseburger", weight: 5.0f }
-		{ item: "delightful:cheeseburger", random_bonus: 2, weight: 10.0f }
 		{ item: "farmersdelight:hamburger", random_bonus: 1, weight: 15.0f }
 		{ item: "croptopia:fruit_salad", weight: 5.0f }
 		{ count: 8, item: "minecraft:redstone", random_bonus: 16, weight: 15.0f }
@@ -235,7 +221,7 @@
 		{ item: "minecraft:ender_eye", random_bonus: 2, weight: 5.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -247,7 +233,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -259,7 +245,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -271,7 +257,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -283,7 +269,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -295,7 +281,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -307,7 +293,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -325,7 +311,7 @@
 		{ item: "botania:mana_pearl", random_bonus: 2, weight: 5.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "twilightforest:giant_sword"
 				tag: {
 					Damage: 0
@@ -334,7 +320,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "aquaculture:neptunium_sword"
 				tag: {
 					Damage: 0
@@ -355,31 +341,6 @@
 		{ item: "minecraft:name_tag", weight: 5.0f }
 		{ item: "ironfurnaces:gold_furnace", weight: 3.0f }
 		{ item: "reliquary:fertile_lily_pad", random_bonus: 2, weight: 5.0f }
-		{
-			item: {
-				Count: 1b
-				id: "buildinggadgets:gadget_exchanging"
-				tag: {
-					state: {
-						data: { }
-						serializer: "buildinggadgets:dummy_serializer"
-						state: {
-							Name: "minecraft:air"
-						}
-					}
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "buildinggadgets:gadget_destruction"
-				tag: {
-					fuzzy: 1b
-					overlay: 1b
-				}
-			}
-		}
 		{ item: "minecraft:wither_skeleton_skull", weight: 10.0f }
 	]
 	title: "&aUncommon Reward"

@@ -1,13 +1,13 @@
 name = "Common Capabilities"
-filename = "CommonCapabilities-1.19.2-2.9.0.jar"
+filename = "CommonCapabilities-1.20.1-2.9.9.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "25222e2a92b1264b22f942ea3467d60706066943"
+hash = "8493d9f742a5559f2229169bf04ecb005d54634f"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4391413
+file-id = 7076209
 project-id = 247007

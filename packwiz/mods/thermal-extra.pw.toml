@@ -1,13 +1,13 @@
 name = "Thermal Extra"
-filename = "ThermalExtra-3.0.5-1.19.2.jar"
+filename = "ThermalExtra-3.2.7-1.20.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "bb7a3c1876306642142c98be0ebf5aa53f11c5ac"
+hash = "98ecd24137c7a22e644c33483a41997d74b0a583"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4914551
+file-id = 6982028
 project-id = 573674

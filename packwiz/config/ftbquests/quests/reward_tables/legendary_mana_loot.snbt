@@ -1,9 +1,7 @@
 {
 	id: "0595EDDADDEA1407"
-	order_index: 31
-	title: "&6Legendary Mana Loot Bag&r"
 	loot_size: 1
-	use_title: true
+	order_index: 61
 	rewards: [
 		{ item: "botania:elementium_ingot", random_bonus: 1, weight: 25.0f }
 		{ item: "botania:pixie_dust", random_bonus: 1, weight: 25.0f }
@@ -16,4 +14,6 @@
 		{ item: "botania:gaia_ingot" }
 		{ item: "botania:terrasteel_ingot", weight: 3.0f }
 	]
+	title: "&6Legendary Mana Loot Bag&r"
+	use_title: true
 }

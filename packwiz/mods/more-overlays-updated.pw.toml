@@ -1,13 +1,7 @@
-name = "More Overlays Updated"
-filename = "moreoverlays-1.21.9-mc1.19.2.jar"
-side = "client"
+name = "more-overlays-updated"
+filename = "moreoverlays-1.24.1-mc1.20.1-forge.jar"
 
 [download]
-url = "https://cdn.modrinth.com/data/Thy5Pqut/versions/3TFPUz2c/moreoverlays-1.21.9-mc1.19.2.jar"
-hash-format = "sha512"
-hash = "baeec29481c551f5b1ade85b0a215d6e8c04861443a11aec59b79f9f6e1116c22dc34c3aac2573318114c0fba9e856f5fe08f891a0681c5e8f7c08841fe06b47"
-
-[update]
-[update.modrinth]
-mod-id = "Thy5Pqut"
-version = "3TFPUz2c"
+url = "https://mediafilez.forgecdn.net/files/6945/288/moreoverlays-1.24.1-mc1.20.1-forge.jar"
+hash-format = "sha256"
+hash = "682640707331db2fc2a43ea023896622d9179849cf74d3313e3ffea8ec3c2371"

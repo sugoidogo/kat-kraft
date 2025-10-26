@@ -1,9 +1,7 @@
 {
 	id: "724575573A0EFEF5"
-	order_index: 30
-	title: "&2Elven Loot Bag&r"
 	loot_size: 1
-	use_title: true
+	order_index: 54
 	rewards: [
 		{ item: "botania:elementium_ingot", random_bonus: 2 }
 		{ item: "botania:pixie_dust", random_bonus: 1 }
@@ -15,4 +13,6 @@
 		{ item: "botania:black_lotus", weight: 0.2f }
 		{ item: "botania:blacker_lotus", weight: 0.1f }
 	]
+	title: "&2Elven Loot Bag&r"
+	use_title: true
 }

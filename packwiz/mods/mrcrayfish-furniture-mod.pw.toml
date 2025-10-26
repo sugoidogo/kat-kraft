@@ -1,13 +1,13 @@
 name = "MrCrayfish's Furniture Mod (Legacy)"
-filename = "cfm-7.0.0-pre35-1.19.2.jar"
+filename = "cfm-forge-1.20.1-7.0.0-pre36.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "632b8720e4a63981d7cbdf444d6619d2994bef6e"
+hash = "66d0ac56f3f6f1efbd6ed7b3cb4a48824d0585c0"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4374996
+file-id = 4602980
 project-id = 55438

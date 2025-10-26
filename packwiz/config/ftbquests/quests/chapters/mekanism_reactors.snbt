@@ -8,11 +8,7 @@
 	id: "0A093D8C4429B627"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 45.0d
 			width: 3.0d
@@ -20,11 +16,7 @@
 			y: -7.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 0.0d
 			width: 3.0d
@@ -32,11 +24,7 @@
 			y: -7.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "ftbquests:block/barrier_open"
 			rotation: 0.0d
 			width: 3.0d
@@ -44,11 +32,7 @@
 			y: -7.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "ftbquests:block/barrier_open"
 			rotation: 45.0d
 			width: 3.0d
@@ -56,11 +40,7 @@
 			y: -7.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "mekanism:item/hazmat_mask"
 			rotation: 0.0d
 			width: 1.0d
@@ -68,11 +48,7 @@
 			y: 0.75d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "mekanism:item/hazmat_gown"
 			rotation: 0.0d
 			width: 1.0d
@@ -80,11 +56,7 @@
 			y: 1.25d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "mekanism:item/hazmat_pants"
 			rotation: 0.0d
 			width: 1.0d
@@ -92,11 +64,7 @@
 			y: 1.75d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "mekanism:item/hazmat_boots"
 			rotation: 0.0d
 			width: 1.0d
@@ -104,11 +72,7 @@
 			y: 2.25d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "mekanism:item/fluorite_gem"
 			rotation: 0.0d
 			width: 1.0d
@@ -116,11 +80,7 @@
 			y: 1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "mekanism:item/yellow_cake_uranium"
 			rotation: 0.0d
 			width: 1.0d
@@ -128,11 +88,8 @@
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 11.0d
-			hover: ["Fusion Reactor"]
+			hover: ["atm9.quest.mekanismReactors.fusionReactor"]
 			image: "atm:textures/questpics/mek/fusion_cutout.png"
 			rotation: 0.0d
 			width: 10.627118644067796d
@@ -140,11 +97,8 @@
 			y: -13.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 12.0d
-			hover: ["Industrial Turbine"]
+			hover: ["atm9.quest.mekanismReactors.industrialTurbine"]
 			image: "atm:textures/questpics/mek/turbine_cutout.png"
 			rotation: 0.0d
 			width: 10.536144578313253d
@@ -152,11 +106,8 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 10.0d
-			hover: ["Fission Reactor"]
+			hover: ["atm9.quest.mekanismReactors.fissionReactor"]
 			image: "atm:textures/questpics/mek/fission_cutout.png"
 			rotation: 0.0d
 			width: 9.661016949152541d
@@ -164,11 +115,8 @@
 			y: 9.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 10.0d
-			hover: ["Supercritical Phase Shifter"]
+			hover: ["atm9.quest.mekanismReactors.supercriticalPhaseShifter"]
 			image: "atm:textures/questpics/mek/sps_cutout.png"
 			rotation: 0.0d
 			width: 12.687687687687689d
@@ -177,11 +125,7 @@
 		}
 		{
 			alpha: 150
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "ae2:block/controller_column_lights"
 			rotation: 90.0d
 			width: 1.5d
@@ -189,35 +133,23 @@
 			y: -1.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "mob_grinding_utils:blocks/fan_front_on"
+			image: "mob_grinding_utils:block/fan_front_on"
 			rotation: -45.0d
 			width: 1.0d
 			x: 11.0d
 			y: -0.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "mob_grinding_utils:blocks/fan_front_on"
+			image: "mob_grinding_utils:block/fan_front_on"
 			rotation: -45.0d
 			width: 1.0d
 			x: 11.0d
 			y: 1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftbquests:block/screen_side"
 			order: -1
 			rotation: 0.0d
@@ -226,11 +158,7 @@
 			y: -6.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 5.0d
-			hover: [ ]
 			image: "ars_nouveau:textures/particle/laser.png"
 			rotation: 90.0d
 			width: 0.5d
@@ -238,11 +166,7 @@
 			y: -6.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "securitycraft:block/ani_laser"
 			rotation: 0.0d
 			width: 0.021739130434782608d
@@ -250,11 +174,7 @@
 			y: -4.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "securitycraft:block/ani_laser"
 			rotation: 0.0d
 			width: 0.021739130434782608d
@@ -262,41 +182,36 @@
 			y: -4.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
-			height: 0.5d
-			hover: ["&dNeeded for the ATM Star&r"]
-			image: "allthetweaks:item/atm_star"
-			rotation: 0.0d
-			width: 0.5d
-			x: 2.0d
-			y: -8.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.3d
-			hover: ["&dNeeded for the ATM Star&r"]
+			hover: ["atm9.quest.ae2.img.star"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
-			x: 6.6d
-			y: -5.5d
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			height: 0.3d
+			hover: ["atm9.quest.ae2.img.star"]
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: 4.0d
+			y: 0.15d
 		}
 	]
-	order_index: 3
+	order_index: 8
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["24174700F7FB771C"]
 			description: [
-				"To start our journey into the world of Mekanism Reactors, we'll start by making a &aFission Reactor&r. These are multiblock structures that generate massive amounts of heat by burning &3Fissile Fuel&r. This reactor does not produce power on its own, but the heat generated can be used to heat &bCoolant&r to be used to generate power in an &aIndustrial Turbine&r."
+				"{atm9.quest.mekanismReactors.desc.fissionReactorIntro.1}"
 				""
-				"The Fission Reactor can be very dangerous, as a meltdown can cause an &cexplosion&r as well as &2Radiation&r spreading over a 5 chunk radius, which lasts for several in-game weeks. "
+				"{atm9.quest.mekanismReactors.desc.fissionReactorIntro.2}"
 				""
-				"But we're going to be prepared for that. Let's make a Hazmat Suit, just in case... right?"
+				"{atm9.quest.mekanismReactors.desc.fissionReactorIntro.3}"
 			]
 			id: "36B1995B495AA674"
 			min_width: 350
@@ -314,7 +229,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "Orange = Radiation Protection"
+			subtitle: "{atm9.quest.mekanismReactors.subt.radiationProtection}"
 			tasks: [
 				{
 					id: "14BF9ADCB8F43ADC"
@@ -337,79 +252,72 @@
 					type: "item"
 				}
 			]
-			title: "Suiting Up for Reactors"
+			title: "{atm9.quest.mekanismReactors.suitingUp}"
 			x: 0.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["36B1995B495AA674"]
 			description: [
-				"It's time to gather the materials we'll need to build the reactor."
+				"{atm9.quest.mekanismReactors.desc.reactorBuildingBasics.1}"
 				""
-				"Just like most Mekanism multiblocks, reactors can be a custom size depending on your needs. They must be cuboid, with the minimum outside size being 3 wide, 4 tall, and 3 blocks deep. The maximum size is 18x18x18. &aWe're going to build a 5x5 to start with&r."
+				"{atm9.quest.mekanismReactors.desc.reactorBuildingBasics.2}"
 				""
-				"The edges of the outer shell &bmust&r be made out of &aFission Reactor Casings&r, while the faces can be either casings or &bReactor Glass&r, Reactor Ports, or Reactor Logic Adapters. We'll get to those later."
+				"{atm9.quest.mekanismReactors.desc.reactorBuildingBasics.3}"
 				""
-				"For now, let's build a basic 5x5x5 Fission Reactor!"
+				"{atm9.quest.mekanismReactors.desc.reactorBuildingBasics.4}"
 				""
-				"Need more help building it? Holding &dw&r while hovering over the Fission Reactor Casing will show you the Ponder that can help you build it."
+				"{atm9.quest.mekanismReactors.desc.reactorBuildingBasics.5}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "1482F2D45E8F761D"
 			min_width: 300
 			rewards: [
-				{
-					command: "/create ponder mekanismgenerators:fission_reactor_casing"
-					icon: "ftbquests:barrier"
-					id: "747F4E333BDC5563"
-					title: "Click Me To See How To Build!"
-					type: "command"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "42378432B647A5A8"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
 				{
 					id: "0792BEFF2D7C604C"
 					type: "xp"
 					xp: 100
 				}
+				{
+					exclude_from_claim_all: true
+					id: "251D1877952196CD"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
 			]
 			shape: "square"
-			subtitle: "Casings and Glass"
+			subtitle: "{atm9.quest.mekanismReactors.subt.casingsAndGlass}"
 			tasks: [
 				{
-					count: 53L
+					count: 44L
 					id: "19447D5D621A8D89"
 					item: "mekanismgenerators:fission_reactor_casing"
 					type: "item"
 				}
 				{
-					count: 41L
+					count: 50L
 					id: "0765AB709CC3C6E2"
 					item: "mekanismgenerators:reactor_glass"
 					type: "item"
 				}
 			]
-			title: "Fission Reactor Building Basics"
+			title: "{atm9.quest.mekanismReactors.fissionReactorBuildingBasics}"
 			x: 0.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["1482F2D45E8F761D"]
 			description: [
-				"For us to take anything in or out of the Fission Reactor, we'll need &aFission Reactor Ports&r. These can be configured to input or output by using the &9Configurator&r. "
+				"{atm9.quest.mekanismReactors.desc.fissionReactorPorts.1}"
 				""
-				"Every Fission Reactor &aneeds a minimum of 4 Ports&r:"
+				"{atm9.quest.mekanismReactors.desc.fissionReactorPorts.2}"
 				""
-				"1 Coolant Input"
-				"1 Coolant Output"
-				"1 Fissile Fuel Input"
-				"1 Waste Output"
+				"{atm9.quest.mekanismReactors.desc.fissionReactorPorts.3}"
+				"{atm9.quest.mekanismReactors.desc.fissionReactorPorts.4}"
+				"{atm9.quest.mekanismReactors.desc.fissionReactorPorts.5}"
+				"{atm9.quest.mekanismReactors.desc.fissionReactorPorts.6}"
 				""
-				"For this starter build, let's put a port on each side like the image shown below. Make sure to configure them to match the list of inputs and outputs!"
+				"{atm9.quest.mekanismReactors.desc.fissionReactorPorts.7}"
 				""
 				"{image:atm:textures/questpics/mek/port_example.png width:200 height:200 align:1}"
 			]
@@ -417,22 +325,15 @@
 			min_width: 400
 			rewards: [
 				{
-					command: "/create ponder mekanismgenerators:fission_reactor_port"
-					icon: "mekanismgenerators:fission_reactor_port"
-					id: "5B0B515B95ACDB8C"
-					title: "Click Me To Learn More!"
-					type: "command"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6AC80E7D1E9239A7"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
 					id: "11FABC06766669F5"
 					type: "xp"
 					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08C5A528A0456C24"
+					table_id: 8364958827326577211L
+					type: "loot"
 				}
 			]
 			shape: "rsquare"
@@ -442,20 +343,20 @@
 				item: "mekanismgenerators:fission_reactor_port"
 				type: "item"
 			}]
-			title: "Interacting with the Fission Reactor"
+			title: "{atm9.quest.mekanismReactors.interactingWithFissionReactor}"
 			x: 1.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["1482F2D45E8F761D"]
 			description: [
-				"Afraid of blowing up your Fission Reactor and causing a massive Radiation leak? Don't worry, we all are. &o*insert terrible flashback here*&r"
+				"{atm9.quest.mekanismReactors.desc.reactorSafety.1}"
 				""
-				"So how can we prevent such a catastrophic disaster? By creating a redstone &aCircuit Breaker&r using &dFission Reactor Logic Adapters&r. Now these aren't 100% guaranteed to stop an explosion, but they are absolutely nice to have."
+				"{atm9.quest.mekanismReactors.desc.reactorSafety.2}"
 				""
-				"Essentially, these Adapters allow us to control the Reactor using &cRedstone&r. With just one, you can use a lever to turn on and off the reactor. However, we're going to use them for damage control."
+				"{atm9.quest.mekanismReactors.desc.reactorSafety.3}"
 				""
-				"You can also set these to give off a Redstone Signal based on a certain condition within the Reactor, like &cDamage Critical&r or &8Insufficient Fuel&r. This is useful for setting up a circuit breaker to shut off the Reactor if those ever happen."
+				"{atm9.quest.mekanismReactors.desc.reactorSafety.4}"
 				""
 				"{image:atm:textures/questpics/mek/logic_adapter.png width:150 height:125 align:1}"
 			]
@@ -468,22 +369,22 @@
 				xp: 50
 			}]
 			shape: "hexagon"
-			subtitle: "Because We've All Blown Up A Reactor Before"
+			subtitle: "{atm9.quest.mekanismReactors.subt.blowUpReactor}"
 			tasks: [{
 				id: "16B10EA105CCC1D3"
 				item: "mekanismgenerators:fission_reactor_logic_adapter"
 				type: "item"
 			}]
-			title: "Reactor Fail Safe"
+			title: "{atm9.quest.mekanismReactors.reactorFailSafe}"
 			x: 1.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["1482F2D45E8F761D"]
 			description: [
-				"The inside of the reactor is built up of pillars using several &aFission Fuel Assembly&r blocks, with a single &aControl Rod Assembly&r placed at the top of each pillar. These can be anywhere from 1 to 15 blocks in height, depending on the size of the reactor."
+				"{atm9.quest.mekanismReactors.desc.reactorAssembly.1}"
 				""
-				"For this build, we'll put 2 of the Fission Fuel Assemblies in the center of our multiblock, and then put the Control Rod Assembly right on top of it."
+				"{atm9.quest.mekanismReactors.desc.reactorAssembly.2}"
 				""
 				"{image:atm:textures/questpics/mek/rod_example.png width:250 height:200 align:1}"
 			]
@@ -491,15 +392,15 @@
 			min_width: 250
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "27BB1242A6E08E5D"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
 					id: "6819DA9F73BA383C"
 					type: "xp"
 					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BF0FCC1C88A003D"
+					table_id: 8364958827326577211L
+					type: "loot"
 				}
 			]
 			shape: "rsquare"
@@ -516,24 +417,24 @@
 					type: "item"
 				}
 			]
-			title: "Inside the Reactor: Fuel Control"
+			title: "{atm9.quest.mekanismReactors.insideReactorFuelControl}"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["5FDB48511EC1C580"]
 			description: [
-				"Using some vanilla mechanics and 2 &aFission Reactor Logic Adapters&r, we can create a simple circuit breaker to trip and turn off the reactor &o&ein case things get a little crazy&r."
+				"{atm9.quest.mekanismReactors.desc.circuitBreaker.1}"
 				""
-				"To do this, we'll need a single piece of Redstone, a Piston, a block of either sand or gravel, and an Observer."
+				"{atm9.quest.mekanismReactors.desc.circuitBreaker.2}"
 				""
-				"On one of the faces, we'll want to put a Logic Adapter down, then skip a block above it and then place another Adapter. Set the top Adapter to &9\"Activation\"&r, and the bottom Adapter to &c\"Damage Critical\"&r."
+				"{atm9.quest.mekanismReactors.desc.circuitBreaker.3}"
 				""
-				"Next, in front and underneath the bottom Adapter, place any building block and stick a piece of Redstone on it leading from the Adapter. We'll then place a Piston facing up in front of that Redstone, then place our piece of sand or gravel on that Piston."
+				"{atm9.quest.mekanismReactors.desc.circuitBreaker.4}"
 				""
-				"For the final part of our breaker, place the Observer with the face pointing &boutwards towards the Piston setup&r. &9This is important&r!"
+				"{atm9.quest.mekanismReactors.desc.circuitBreaker.5}"
 				""
-				"Whenever the Reactor has critical damage, it will then activate the bottom Adapter, causing the redstone to get a signal, which then activates the Piston and pushes up the Gravel/Sand. This will activate the Observer, which then turns off the Reactor."
+				"{atm9.quest.mekanismReactors.desc.circuitBreaker.6}"
 				""
 				"{image:atm:textures/questpics/mek/example_circuit.png width:200 height:250 align:1}"
 			]
@@ -543,20 +444,19 @@
 			optional: true
 			rewards: [
 				{
-					command: "/create ponder mekanismgenerators:fission_reactor_logic_adapter"
-					icon: "mekanismgenerators:fission_reactor_logic_adapter"
-					id: "4CE5F77418DBFFFB"
-					title: "Click Me To Learn More!"
-					type: "command"
-				}
-				{
 					id: "102A352650624E7C"
 					type: "xp"
 					xp: 100
 				}
+				{
+					exclude_from_claim_all: true
+					id: "070E292041FDB840"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
 			]
 			shape: "hexagon"
-			subtitle: "Need a visual? Watch the Ponder!"
+			subtitle: "{atm9.quest.mekanismReactors.subt.ponderVisual}"
 			tasks: [
 				{
 					count: 2L
@@ -572,7 +472,7 @@
 				{
 					id: "5BC88AE46F95774D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -587,7 +487,7 @@
 							]
 						}
 					}
-					title: "Gravel or Sand"
+					title: "{atm9.quest.mekanismReactors.gravelOrSand}"
 					type: "item"
 				}
 				{
@@ -601,37 +501,45 @@
 					type: "item"
 				}
 			]
-			title: "Example Circuit Breaker"
+			title: "{atm9.quest.mekanismReactors.exampleCircuitBreaker}"
 			x: 1.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["1DE8B0C9A7195720"]
 			description: [
-				"When burning fuel, the Fission Reactor creates a massive amount of heat. To prevent the Reactor from converting into TNT, we need to make sure it is properly cooled."
+				"{atm9.quest.mekanismReactors.desc.reactorCooling.1}"
 				""
-				"The easiest way to do this is by giving the Reactor &9Water&r from a Sink. The Sink is an infinite water source, which is &oreally nice for a situation like this&r."
+				"{atm9.quest.mekanismReactors.desc.reactorCooling.2}"
 				""
-				"Pump out the water into one of the Reactor's Ports that is set to &ainput&r to fill up the Reactor with water. This will be heated while the Reactor is running and get converted to &bSteam&r, which you can use to create power in an &9Industrial Turbine&r."
+				"{atm9.quest.mekanismReactors.desc.reactorCooling.3}"
 				""
-				"&eSodium&r can also be used as a much more efficient coolant. This allows for higher burn rates and lower core temperatures."
+				"{atm9.quest.mekanismReactors.desc.reactorCooling.4}"
 			]
 			id: "2B76B2F18C2C47D2"
 			min_width: 300
 			progression_mode: "linear"
-			rewards: [{
-				id: "1E2809FAFCF0A292"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "1E2809FAFCF0A292"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "573EC47D2235DA05"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
+			]
 			shape: "rsquare"
-			subtitle: "High Quality H2O"
+			subtitle: "{atm9.quest.mekanismReactors.subt.highQualityH2O}"
 			tasks: [{
 				id: "7E8281C007094843"
 				item: "cookingforblockheads:sink"
 				type: "item"
 			}]
-			title: "Cooling Our Reactor"
+			title: "{atm9.quest.mekanismReactors.coolingOurReactor}"
 			x: 3.0d
 			y: 4.0d
 		}
@@ -641,15 +549,15 @@
 				"3F5010269469EBE0"
 			]
 			description: [
-				"Once you've finished placing in all of the required blocks to build the Reactor, it should give off red particles to show that it is complete."
+				"{atm9.quest.mekanismReactors.desc.reactorCompletion.1}"
 				""
-				"Right clicking anywhere on the Reactor will open up the &aInterface&r. This will have all of the information you need to run the Reactor properly, as well as two buttons to turn on and off the Reactor."
+				"{atm9.quest.mekanismReactors.desc.reactorCompletion.2}"
 				""
-				"On the left, you have 2 tanks: One for &bCoolant&r and one for &3Fissile Fuel&r. On the right, you have one for &8Nuclear Waste&r, and one for &bHeated Coolant&r, which will most likely be &bSteam&r."
+				"{atm9.quest.mekanismReactors.desc.reactorCompletion.3}"
 				""
-				"The &cTemperature&r bar will show you how hot the Reactor is. After a certain temp, the Reactor will start taking &4Damage&r, which will eventually cause the Reactor to explode."
+				"{atm9.quest.mekanismReactors.desc.reactorCompletion.4}"
 				""
-				"To adjust the &cBurn Rate&r of the Fissile Fuel and see more statistics, click on the (I) tab on the left side. Here, you can adjust the Rate Limit, which controls how much fuel the Reactor burns per tick."
+				"{atm9.quest.mekanismReactors.desc.reactorCompletion.5}"
 				""
 				"{image:atm:textures/questpics/mek/reactor_interface_1.png width:200 height:150 align:1}"
 				"{image:atm:textures/questpics/mek/reactor_interface_2.png width:200 height:150 align:1}"
@@ -660,54 +568,53 @@
 			progression_mode: "linear"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "4A0CA5788E093C63"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
 					id: "08BFEE4DB82A488D"
 					type: "xp"
 					xp: 250
 				}
+				{
+					exclude_from_claim_all: true
+					id: "24535A9B5B195CDB"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "Those are definitely numbers"
+			subtitle: "{atm9.quest.mekanismReactors.subt.numbers}"
 			tasks: [{
-				icon: "mekanism:geiger_counter"
-				id: "34D8628732B36EDF"
-				title: "Observe a Completed Reactor"
-				type: "custom"
+				id: "7231A50B09F6218A"
+				item: "mekanismgenerators:fission_reactor_casing"
+				type: "item"
 			}]
-			title: "The Fission Reactor Interface"
+			title: "{atm9.quest.mekanismReactors.fissionReactorInterface}"
 			x: 3.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3B81800EE6E77EF2"]
 			description: [
-				"Every Reactor uses Uranium somewhere for fuel, right?"
+				"{atm9.quest.mekanismReactors.desc.uraniumUses.1}"
 				""
-				"For starters, let's gather some &aUranium Ingots&r. We'll need to process these in an &9Enrichment Chamber&r to turn it into &eYellow Cake Uranium&r."
+				"{atm9.quest.mekanismReactors.desc.uraniumUses.2}"
 			]
 			icon: "mekanism:yellow_cake_uranium"
 			id: "7E17AB5A4492929E"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "42A731D3881A8723"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
 					id: "48CC9D36035B2625"
 					type: "xp"
 					xp: 25
 				}
+				{
+					exclude_from_claim_all: true
+					id: "6F9EDF210644BE81"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
 			]
 			shape: "rsquare"
-			subtitle: "Of Course It Uses Uranium"
+			subtitle: "{atm9.quest.mekanismReactors.subt.uraniumUse}"
 			tasks: [
 				{
 					id: "5641530385DCA6A7"
@@ -721,26 +628,26 @@
 					type: "item"
 				}
 			]
-			title: "&aUranium"
+			title: "{atm9.quest.mekanismReactors.uranium}"
 			x: 5.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["7E17AB5A4492929E"]
-			description: ["Once we have our hands on &eYellow Cake Uranium&r, we can send it through a &aChemical Oxidizer&r to create the gas, &2Uranium Oxide&r. "]
+			description: ["{atm9.quest.mekanismReactors.desc.yellowCakeProcess}"]
 			id: "3AF4E5D4839CEF8B"
 			progression_mode: "linear"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "4B0908AEDBA24DDF"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
 					id: "147637FB74512198"
 					type: "xp"
 					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38EBF2DB27CB0D4B"
+					table_id: 8364958827326577211L
+					type: "loot"
 				}
 			]
 			tasks: [
@@ -752,20 +659,20 @@
 				{
 					icon: "mekanism:basic_chemical_tank"
 					id: "29D6CA9A77ACACC6"
-					title: "Observe Uranium Oxide in a Machine"
-					type: "custom"
+					title: "{atm9.quest.mekanismReactors.observeUraniumOxide}"
+					type: "checkmark"
 				}
 			]
-			title: "&eUranium Oxide"
+			title: "{atm9.quest.mekanismReactors.uraniumOxide}"
 			x: 7.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["7E4A95B6443F23BC"]
 			description: [
-				"As a recap, we've set up an advanced Ore Processing facility using several gases, machinery, and more."
+				"{atm9.quest.mekanismReactors.desc.reactorSetup.1}"
 				""
-				"In this chapter, we'll be using more of those to create powerful multiblock &aReactors&r, as well as advanced ways to create and store power. This will also lead to making &dAntimatter Pellets&r, which are used to make the &6ATM Star&r, as well as some of the strongest tools and weapons in the pack."
+				"{atm9.quest.mekanismReactors.desc.reactorSetup.2}"
 			]
 			icon: "mekanism:antiprotonic_nucleosynthesizer"
 			id: "24174700F7FB771C"
@@ -777,10 +684,10 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "&cRequires Quest \"Advanced Mekanism\" Completion from the Mekanism Chapter&r"
+			subtitle: "{atm9.quest.mekanismReactors.subt.advancedMekanismRequired}"
 			tasks: [{
 				id: "3153288DCE1C4FEF"
-				title: "&aMekanism&r: &dAdvanced&r"
+				title: "{atm9.quest.mekanismReactors.advancedMekanism}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -789,9 +696,9 @@
 		{
 			dependencies: ["1DE8B0C9A7195720"]
 			description: [
-				"The Fission Reactor needs &3Fissile Fuel&r to run. If you look up Fissile Fuel right now in JEI, I bet you'll get overwhelmed with everything you need to make it. It's okay, you've got this. Let's take it one step at a time."
+				"{atm9.quest.mekanismReactors.desc.fissileFuel.1}"
 				""
-				"It all boils down to creating &eUranium Hexafluoride&r. To do this, let's focus on making these two gases: &bHydrofluoric Acid&r, and &eUranium Oxide&r."
+				"{atm9.quest.mekanismReactors.desc.fissileFuel.2}"
 			]
 			icon: "mekanism:reprocessed_fissile_fragment"
 			id: "3B81800EE6E77EF2"
@@ -802,7 +709,7 @@
 			}]
 			tasks: [{
 				id: "382818E289EC83A6"
-				title: "&3Fissile Fuel Production&r"
+				title: "{atm9.quest.mekanismReactors.fissileFuelProduction}"
 				type: "checkmark"
 			}]
 			x: 4.5d
@@ -811,73 +718,80 @@
 		{
 			dependencies: ["3B81800EE6E77EF2"]
 			description: [
-				"You should have already made &2Sulfuric Acid&r for your Tier 4 Ore Processing facility, but here is a reminder on how to get it."
+				"{atm9.quest.mekanismReactors.desc.sulfuricAcid.1}"
 				""
-				"Start by getting &eSulfur Dust&r either by crushing Sulfur from Thermal, or by mixing &bHydrogen Chloride&r with &3Gunpowder&r in a Chemical Dissolution Chamber."
+				"{atm9.quest.mekanismReactors.desc.sulfuricAcid.2}"
 				""
-				"Take the Sulfur Dust and run it through a &9Chemical Oxidizer&r to get &eSulfur Dioxide&r. Combine that with &bOxygen&r in a Chemical Infuser to get &eSulfur Trioxide&r."
+				"{atm9.quest.mekanismReactors.desc.sulfuricAcid.3}"
 				""
-				"Next, we'll combine &bWater Vapor&r with the Sulfur Trioxide to make &2Sulfuric Acid&r."
+				"{atm9.quest.mekanismReactors.desc.sulfuricAcid.4}"
 			]
-			icon: "thermal:sulfur_dust"
+			icon: "gtceu:sulfur_dust"
 			id: "31EEE2875595F315"
 			progression_mode: "linear"
-			rewards: [{
-				id: "414A6E5BDC1A3B1E"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "A Quick Recap"
-			tasks: [
+			rewards: [
 				{
-					id: "14A09EAF150777A3"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:dusts/sulfur"
-						}
-					}
-					title: "Sulfur Dust"
-					type: "item"
+					id: "414A6E5BDC1A3B1E"
+					type: "xp"
+					xp: 25
 				}
 				{
-					icon: "ftbquests:barrier"
-					id: "66C97246C3EEFB7C"
-					title: "Observe Sulfuric Acid in a Machine"
-					type: "custom"
+					exclude_from_claim_all: true
+					id: "20492956C6AD544F"
+					table_id: 8364958827326577211L
+					type: "loot"
 				}
 			]
-			title: "&2Sulfuric Acid"
+			subtitle: "{atm9.quest.mekanismReactors.subt.quickRecap}"
+			tasks: [{
+				id: "14A09EAF150777A3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dusts/sulfur"
+					}
+				}
+				title: "{atm9.quest.mekanismReactors.sulfurDust}"
+				type: "item"
+			}]
+			title: "{atm9.quest.mekanismReactors.sulfuricAcid}"
 			x: 5.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["31EEE2875595F315"]
 			description: [
-				"Let's take our &2Sulfuric Acid&r and combine it with &bFluorite&r in a &9Chemical Dissolution Chamber&r to make &bHydrofluoric Acid&r."
+				"{atm9.quest.mekanismReactors.desc.hydrofluoricAcid.1}"
 				""
-				"We're almost there!"
+				"{atm9.quest.mekanismReactors.desc.hydrofluoricAcid.2}"
 			]
 			id: "187A3F5B41D1C923"
 			progression_mode: "linear"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "15D4F213191722DE"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
 					id: "5AEF7913046DC6FB"
 					type: "xp"
 					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CB5555573A7DE48"
+					table_id: 8364958827326577211L
+					type: "loot"
 				}
 			]
 			tasks: [
 				{
 					id: "452FBF76102210BD"
-					item: "mekanism:fluorite_gem"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:gems/fluorite"
+						}
+					}
+					title: "{atm9.quest.mekanismReactors.fluorite}"
 					type: "item"
 				}
 				{
@@ -885,14 +799,8 @@
 					item: "mekanism:chemical_dissolution_chamber"
 					type: "item"
 				}
-				{
-					icon: "ftbquests:barrier"
-					id: "510CE57C709D5A44"
-					title: "Observe Hydrofluoric Acid in a Machine"
-					type: "custom"
-				}
 			]
-			title: "&bHydrofluoric Acid"
+			title: "{atm9.quest.mekanismReactors.hydrofluoricAcid}"
 			x: 7.0d
 			y: 1.5d
 		}
@@ -901,95 +809,79 @@
 				"187A3F5B41D1C923"
 				"3AF4E5D4839CEF8B"
 			]
-			description: ["Using another &9Chemical Infuser&r, we want to combine our &bHydrofluoric Acid&r with &eUranium Oxide&r to make &2Uranium Hexafluoride&r."]
+			description: ["{atm9.quest.mekanismReactors.desc.uraniumHexafluoride}"]
 			id: "3663E93E169EF8E3"
 			progression_mode: "linear"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0BF80354A244B222"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
 				{
 					id: "1AA24CF536807D83"
 					type: "xp"
 					xp: 50
 				}
-			]
-			tasks: [
 				{
-					id: "73C5F4AC41EE5123"
-					item: "mekanism:chemical_infuser"
-					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "05A215BE7EE2F35D"
-					title: "Observe Uranium Hexafluoride in a Machine"
-					type: "custom"
+					exclude_from_claim_all: true
+					id: "34ED8F5C16ACBE63"
+					table_id: 8364958827326577211L
+					type: "loot"
 				}
 			]
-			title: "&2Uranium Hexafluoride"
+			tasks: [{
+				id: "73C5F4AC41EE5123"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			title: "{atm9.quest.mekanismReactors.uraniumHexafluoride}"
 			x: 8.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3663E93E169EF8E3"]
 			description: [
-				"Once we have an &9Isotopic Centrifuge&r, we can run our &2Uranium Hexafluoride&r in and create &3Fissile Fuel&r!"
+				"{atm9.quest.mekanismReactors.desc.isotopicCentrifuge.1}"
 				""
-				"See, that wasn't so bad was it?"
+				"{atm9.quest.mekanismReactors.desc.isotopicCentrifuge.2}"
 			]
 			icon: "mekanism:isotopic_centrifuge"
 			id: "16A6C47E35F3B9D0"
 			progression_mode: "linear"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "7380540E354FD0C5"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
 					id: "04AA88C4D9B33E34"
 					type: "xp"
 					xp: 100
 				}
+				{
+					exclude_from_claim_all: true
+					id: "0F0F1DC9C68D607E"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					id: "3F2371FD486D4F0E"
-					item: "mekanism:isotopic_centrifuge"
-					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "4E04F8F091D18EA4"
-					title: "Observe Fissile Fuel in a Machine"
-					type: "custom"
-				}
-			]
-			title: "&3Fissile Fuel&r"
+			tasks: [{
+				id: "3F2371FD486D4F0E"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
+			title: "{atm9.quest.mekanismReactors.fissileFuel}"
 			x: 9.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3FFF9018DA2A2763"]
 			description: [
-				"Let's go through the checklist &oone more time&r to ensure we have everything ready to go before we boot it up:"
+				"{atm9.quest.mekanismReactors.desc.checklist.1}"
 				""
-				"1. Hazmat Suit On (safety first)"
-				"2. Water/coolant pumping into an input Port."
-				"3. Fissile Fuel pumping into an input Port."
-				"4. A Port set to output the Heated Coolant, either to a trashcan or an Industrial Turbine."
-				"5. A Port set to output Nuclear Waste leading to Radioactive Waste Barrels or machines to process it, or both!"
+				"{atm9.quest.mekanismReactors.desc.checklist.2}"
+				"{atm9.quest.mekanismReactors.desc.checklist.3}"
+				"{atm9.quest.mekanismReactors.desc.checklist.4}"
+				"{atm9.quest.mekanismReactors.desc.checklist.5}"
+				"{atm9.quest.mekanismReactors.desc.checklist.6}"
 				""
-				"If you're ready to go, hit that &eActivate&r button! You can also adjust the &3Burn Rate&r to produce more Nuclear Waste, but start slow."
+				"{atm9.quest.mekanismReactors.desc.checklist.7}"
 			]
-			icon: "engineersdecor:sign_radioactive"
+			icon: "chipped:hazard_red_concrete"
 			id: "3591EAA8E397F992"
 			min_width: 300
 			rewards: [{
@@ -1001,37 +893,37 @@
 			size: 1.5d
 			tasks: [{
 				id: "27709080B4B77B09"
-				title: "Ready To Go!"
+				title: "{atm9.quest.mekanismReactors.readyToGo}"
 				type: "checkmark"
 			}]
-			title: "Booting Up The Reactor"
+			title: "{atm9.quest.mekanismReactors.bootingUpReactor}"
 			x: 9.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["16A6C47E35F3B9D0"]
 			description: [
-				"Once we start burning up Fissile Fuel in the reactor, we'll get heated &bCoolant&r and &8Nuclear Waste&r."
+				"{atm9.quest.mekanismReactors.desc.reactorOperation.1}"
 				""
-				"This is where the Radiation kicks in. As long as it stays &osafely in some container or machine&r, you won't have any spills....right?"
+				"{atm9.quest.mekanismReactors.desc.reactorOperation.2}"
 				""
-				"The best way to store any Radioactive substance is using a &2Radioactive Waste Barrel&r. These will safely store the waste, while slowly decaying the gas without causing a Radiation spill. You don't want your Nuclear Waste sitting in your Reactor as it causes it to produce more heat, so set a port to &aoutput Waste&r and ship it to a barrel!"
+				"{atm9.quest.mekanismReactors.desc.reactorOperation.3}"
 				""
-				"&9Important Note&r: Breaking &nany&r machine, barrel, pipe, or &oanything&r that has a Radioactive gas inside of it &cwill cause a Radiation leak&r. That includes the products of Nuclear Waste, like Polonium or Plutonium."
+				"{atm9.quest.mekanismReactors.desc.reactorOperation.4}"
 			]
 			id: "3FFF9018DA2A2763"
 			min_width: 300
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "408EC838E6C92754"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
 					id: "1EEAAB174D95E4B6"
 					type: "xp"
 					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4278904667FC1D86"
+					table_id: 8364958827326577211L
+					type: "loot"
 				}
 			]
 			tasks: [{
@@ -1040,31 +932,31 @@
 				item: "mekanism:radioactive_waste_barrel"
 				type: "item"
 			}]
-			title: "Dealing with &8Nuclear Waste&r"
+			title: "{atm9.quest.mekanismReactors.dealingWithNuclearWaste}"
 			x: 9.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["3591EAA8E397F992"]
 			description: [
-				"&8Nuclear Waste&r can be sent into an Isotopic Centrifuge to create &9Plutonium&r."
+				"{atm9.quest.mekanismReactors.desc.nuclearWasteProcessing.1}"
 				""
-				"Sending the Plutonium into a Pressurized Reaction Chamber with some water and &7Fluorite Dust&r will give you &9Plutonium Pellets&r. These are used to make end game materials!"
+				"{atm9.quest.mekanismReactors.desc.nuclearWasteProcessing.2}"
 				""
-				"Note: This will also create a byproduct of &7Spent Nuclear Waste&r, which needs to be pumped into a Waste Barrel for storage."
+				"{atm9.quest.mekanismReactors.desc.nuclearWasteProcessing.3}"
 			]
 			id: "2E9FC7DC2AC6FD8E"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "291CFA4139F71658"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
 					id: "353657D187263DAA"
 					type: "xp"
 					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5654C27CDA3AC9C5"
+					table_id: 8364958827326577211L
+					type: "loot"
 				}
 			]
 			tasks: [{
@@ -1078,24 +970,24 @@
 		{
 			dependencies: ["3591EAA8E397F992"]
 			description: [
-				"Pumping Nuclear Waste into a &9Solar Neutron Activator&r will give you &dPolonium&r. "
+				"{atm9.quest.mekanismReactors.desc.nuclearWasteProcess.1}"
 				""
-				"Run the Polonium through a Pressurized Reaction Chamber with some Fluorite Dust and you'll get &9Polonium Pellets&r. You will need a good bit of these for the future."
+				"{atm9.quest.mekanismReactors.desc.nuclearWasteProcess.2}"
 				""
-				"Note: This will also create a byproduct of &7Spent Nuclear Waste&r, which needs to be pumped into a Waste Barrel for storage."
+				"{atm9.quest.mekanismReactors.desc.nuclearWasteProcess.3}"
 			]
 			id: "1FAAF8216CDC3AC6"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "1CEED939AAFB06F3"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
 					id: "316FC7C98CC22E11"
 					type: "xp"
 					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D0F32B47DB74908"
+					table_id: 8364958827326577211L
+					type: "loot"
 				}
 			]
 			tasks: [{
@@ -1112,20 +1004,13 @@
 				"1FAAF8216CDC3AC6"
 			]
 			description: [
-				"The &dSupercritical Phase Shifter&r (SPS for short) is another multiblock structure used to infuse Polonium with large amounts of power to create &dAntimatter&r gas, which can be crystallized into pellets."
+				"{atm9.quest.mekanismReactors.desc.spsConstruction.1}"
 				""
-				"To build the SPS, you'll need to make a total of 72 &9SPS Casings&r (60 for the build, 12 to make the ports), 3 &9SPS Ports&r, 122 Reactor Glass, and one other item we'll talk about in the next quest. Let's get the materials first!"
+				"{atm9.quest.mekanismReactors.desc.spsConstruction.2}"
 			]
 			id: "068728DE3B9B13C3"
 			progression_mode: "linear"
 			rewards: [
-				{
-					command: "/create ponder mekanism:sps_casing"
-					icon: "ftbquests:barrier"
-					id: "5B0D10312C328B83"
-					title: "Click Me to Learn How To Build!"
-					type: "command"
-				}
 				{
 					id: "34DCA3CB7F03E0E4"
 					item: "mekanism:sps_port"
@@ -1133,12 +1018,12 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "1E091230BBDA9D73"
+					id: "4EF29B7A9C4A9A5A"
 					table_id: 8364958827326577211L
 					type: "loot"
 				}
 				{
-					id: "7805E5E238BB92F1"
+					id: "1356A6FBD70699CA"
 					type: "xp"
 					xp: 100
 				}
@@ -1155,7 +1040,7 @@
 				{
 					count: 122L
 					id: "6236D6215419A2EF"
-					item: "mekanismgenerators:reactor_glass"
+					item: "mekanism:structural_glass"
 					type: "item"
 				}
 				{
@@ -1165,23 +1050,23 @@
 					type: "item"
 				}
 			]
-			title: "&dSupercritical Phase Shifter"
+			title: "{atm9.quest.mekanismReactors.spsTitle}"
 			x: 6.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["1FAAF8216CDC3AC6"]
 			description: [
-				"You've probably heard people talk about how the &cFusion Reactor&r is the best power source in the pack. They are right."
+				"{atm9.quest.mekanismReactors.desc.fusionReactor.1}"
 				""
-				"Once activated, the Reactor can push out up to 200MRF/t with the right setup. It can also be cooled with water to produce steam, which can go into an &9Industrial Turbine&r to make even more power."
+				"{atm9.quest.mekanismReactors.desc.fusionReactor.2}"
 				""
-				"To build the Fusion Reactor, we need to follow a simple pattern. Each face will look like this:"
+				"{atm9.quest.mekanismReactors.desc.fusionReactor.3}"
 				"{image:atm:textures/questpics/mek/fusion_pattern.png width:175 height:175 align:1}"
 				""
-				"For the top, we want to replace the middle block with the Fusion Reactor Controller."
+				"{atm9.quest.mekanismReactors.desc.fusionReactor.4}"
 				""
-				"For the ports, you can replace any of the Reactor Glass on the sides. For this setup, we'll need two ports to input &cDeuterium&r and &eTritium&r, then a port to output power. "
+				"{atm9.quest.mekanismReactors.desc.fusionReactor.5}"
 				""
 				"{image:atm:textures/questpics/mek/completed_fusion_reactor.png width:175 height:150 align:1}"
 			]
@@ -1190,27 +1075,20 @@
 			progression_mode: "linear"
 			rewards: [
 				{
-					command: "/say Hi, @p!/create ponder mekanismgenerators:fusion_reactor_frame"
-					icon: "ftbquests:barrier"
-					id: "7A58D77A4EDACC40"
-					title: "Click Me To See How To Build!"
-					type: "command"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "102EAA274E939BB1"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
 					id: "73F01F26D46493C6"
 					type: "xp"
 					xp: 100
 				}
+				{
+					exclude_from_claim_all: true
+					id: "5E28FD20ACEBC0F3"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "The Best Power Source In The Pack"
+			subtitle: "{atm9.quest.mekanismReactors.subt.bestPowerSource}"
 			tasks: [
 				{
 					id: "4005EDF7A97FD97D"
@@ -1236,16 +1114,16 @@
 					type: "item"
 				}
 			]
-			title: "The &cFusion Reactor&r"
+			title: "{atm9.quest.mekanismReactors.fusionReactorTitle}"
 			x: 8.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["068728DE3B9B13C3"]
 			description: [
-				"The &9Supercharged Coil&r is placed on an SPS Port in the center of two faces, like the image below. When given power, these will supercharge Polonium into Antimatter. Only 1 is required, but you can use 2 if you want."
+				"{atm9.quest.mekanismReactors.desc.superchargedCoils.1}"
 				""
-				"To produce 1mb of Antimatter, you need 400MRF. If you haven't started making a &cFusion Reactor&r, now's a good time to make it!"
+				"{atm9.quest.mekanismReactors.desc.superchargedCoils.2}"
 				""
 				"{image:atm:textures/questpics/mek/sps_coils.png width:200 height:125 align:1}"
 			]
@@ -1258,15 +1136,15 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "448388A7D1EF49D7"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
 					id: "3C4D31DF8C934DC9"
 					type: "xp"
 					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DFAC25097BB1E80"
+					table_id: 8364958827326577211L
+					type: "loot"
 				}
 			]
 			tasks: [{
@@ -1274,22 +1152,22 @@
 				item: "mekanism:supercharged_coil"
 				type: "item"
 			}]
-			title: "The Supercharged Coils"
+			title: "{atm9.quest.mekanismReactors.superchargedCoilsTitle}"
 			x: 6.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["2331FCDD2F2B709A"]
 			description: [
-				"With all of the gathered blocks, it's time to build this thing. Below is a text guide, or you can watch the Ponder!"
+				"{atm9.quest.mekanismReactors.desc.buildSPS.1}"
 				""
-				"The SPS will be 7x7 when built, but it isn't a cube. It follows a simple pattern, which you can follow the images below as a build guide. The pattern looks like this: "
+				"{atm9.quest.mekanismReactors.desc.buildSPS.2}"
 				""
 				"{image:atm:textures/questpics/mek/basic_sps_shape.png width:250 height:225 align:1}"
 				""
-				"Each side, including the bottom and top, will follow this pattern. The Supercharged Coils should be placed across from each other in the center of their respective sides, and the remaining two ports will be used to pump in Polonium, and pump out Antimatter Gas."
+				"{atm9.quest.mekanismReactors.desc.buildSPS.3}"
 				""
-				"Here is the completed structure below: "
+				"{atm9.quest.mekanismReactors.desc.buildSPS.4}"
 				""
 				"{image:atm:textures/questpics/mek/sps_complete.png width:300 height:250 align:1}"
 			]
@@ -1298,34 +1176,33 @@
 			progression_mode: "linear"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "08B5E0576E25FAAD"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
 					id: "7D3868B320D82382"
 					type: "xp"
 					xp: 250
 				}
+				{
+					exclude_from_claim_all: true
+					id: "41C9347CE3D3D8AE"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
 			]
 			shape: "square"
 			tasks: [{
-				icon: "mekanism:sps_casing"
-				id: "2A13A1B1A85C2981"
-				title: "Observe a completed SPS"
-				type: "custom"
+				id: "3CD7CD472E76B554"
+				item: "mekanism:sps_casing"
+				type: "item"
 			}]
-			title: "Build the SPS!"
+			title: "{atm9.quest.mekanismReactors.buildSPSTitle}"
 			x: 6.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["2B3F2F470E06BC40"]
 			description: [
-				"After zapping away trillions of power in the SPS, we can finally create &dAntimatter Pellets&r."
+				"{atm9.quest.mekanismReactors.desc.antimatterPellets.1}"
 				""
-				"Run the Antimatter Gas you get from the SPS into a Chemical Crystallizer and you'll get 1 Antimatter Pellet for every 1,000mb you make."
+				"{atm9.quest.mekanismReactors.desc.antimatterPellets.2}"
 			]
 			id: "00EFC7B327E79076"
 			rewards: [
@@ -1354,15 +1231,15 @@
 		{
 			dependencies: ["79757F66DF263FA0"]
 			description: [
-				"To see a visual, check out the Ponder by holding &aW&r while hovering over the Laser Focus Matrix."
+				"{atm9.quest.mekanismReactors.desc.laserFocusArray.1}"
 				""
-				"The goal is to aim each Laser into a Laser Amplifier. Using one is pretty slow, so we're going to make a few."
+				"{atm9.quest.mekanismReactors.desc.laserFocusArray.2}"
 				""
-				"In the image below, you can see an example of how this is set up. Sticking the Lasers directly on a power source like an Energy Cube works, or you can have them on pipes or cables. You want to give it a block of empty space between the lasers and the Laser Amplifier."
+				"{atm9.quest.mekanismReactors.desc.laserFocusArray.3}"
 				""
-				"The Laser Amplifier has a red dot on one of the faces. This is what you want to point towards the Laser Focus Matrix."
+				"{atm9.quest.mekanismReactors.desc.laserFocusArray.4}"
 				""
-				"Make sure to turn the Laser Amplifier off (or activate Redstone control) and wait for it to store &cat least 400MRF&r, then it'll be ready."
+				"{atm9.quest.mekanismReactors.desc.laserFocusArray.5}"
 				""
 				"{image:atm:textures/questpics/mek/laser_example.png width:200 height:150 align:1} "
 			]
@@ -1370,22 +1247,15 @@
 			min_width: 400
 			rewards: [
 				{
-					command: "/create ponder mekanismgenerators:laser_focus_matrix"
-					icon: "mekanism:laser"
-					id: "7C62F20073317501"
-					title: "Click Me To See It In Action!"
-					type: "command"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1EDDDFB8DA186ABC"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
 					id: "1D08E38CECF7C7E8"
 					type: "xp"
 					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F0CE5F24DACE759"
+					table_id: 8364958827326577211L
+					type: "loot"
 				}
 			]
 			tasks: [
@@ -1401,25 +1271,25 @@
 					type: "item"
 				}
 			]
-			title: "Jumpstarting Method: &dLaser Focus Array&r"
+			title: "{atm9.quest.mekanismReactors.laserFocusArrayTitle}"
 			x: 14.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["12D271359D48210E"]
-			description: ["By now, you're already making &aLithium&r. Pump that into a Solar Neutron Activator to create &eTritium&r."]
+			description: ["{atm9.quest.mekanismReactors.desc.tritiumProduction}"]
 			id: "57534FA0E09C4975"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "50ECD100B9BCD26C"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
 				{
 					id: "464CDFABB1935067"
 					type: "xp"
 					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B4E2F6B1A4ABA2D"
+					table_id: 8364958827326577211L
+					type: "loot"
 				}
 			]
 			tasks: [{
@@ -1427,32 +1297,32 @@
 				item: "mekanism:solar_neutron_activator"
 				type: "item"
 			}]
-			title: "Fueling the Fusion Reactor: &eTritium&r"
+			title: "{atm9.quest.mekanismReactors.tritiumTitle}"
 			x: 12.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["12D271359D48210E"]
 			description: [
-				"To fuel our Fusion Reactor, we'll need to create two different gases, this one being &cDeuterium&r."
+				"{atm9.quest.mekanismReactors.desc.deuteriumProduction.1}"
 				""
-				"To make this, we'll need to make some Electric Pumps and give them a Filter Upgrade. Place them over a source block of water, give them some power, and they'll pump out &5Heavy Water&r."
+				"{atm9.quest.mekanismReactors.desc.deuteriumProduction.2}"
 				""
-				"Pump the Heavy Water into an Electrolytic Separator to get &cDeuterium&r."
+				"{atm9.quest.mekanismReactors.desc.deuteriumProduction.3}"
 			]
 			icon: "mekanism:electric_pump"
 			id: "4ABF0727AA569DD9"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "6C772F5609C6BFFD"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
 					id: "5A40C3DB56EDA0E3"
 					type: "xp"
 					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24B785D6329E4565"
+					table_id: 8364958827326577211L
+					type: "loot"
 				}
 			]
 			tasks: [
@@ -1467,7 +1337,7 @@
 					type: "item"
 				}
 			]
-			title: "Fueling the Reactor: &cDeuterium&r"
+			title: "{atm9.quest.mekanismReactors.deuteriumTitle}"
 			x: 12.5d
 			y: -8.5d
 		}
@@ -1477,22 +1347,22 @@
 				"4ABF0727AA569DD9"
 			]
 			description: [
-				"To kick start the Fusion Reactor, we'll need a quick-shot of D-T fuel. This is made by combining &cDeuterium&r and &eTritium&r together in a Chemical Infuser."
+				"{atm9.quest.mekanismReactors.desc.fuelInjector.1}"
 				""
-				"Start by making a &4Hohlraum&r and place it into the Infuser (where the plus symbol is) to fill it with D-T fuel. Now we're ready to jumpstart the Reactor!"
+				"{atm9.quest.mekanismReactors.desc.fuelInjector.2}"
 			]
 			id: "3593D955361B0C6D"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "7118999FC75270C1"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
 					id: "2FBAF9E2B19C1A6F"
 					type: "xp"
 					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29186BFA372DE715"
+					table_id: 8364958827326577211L
+					type: "loot"
 				}
 			]
 			tasks: [{
@@ -1500,33 +1370,33 @@
 				item: "mekanismgenerators:hohlraum"
 				type: "item"
 			}]
-			title: "The Fuel Injector"
+			title: "{atm9.quest.mekanismReactors.fuelInjectorTitle}"
 			x: 14.5d
 			y: -8.0d
 		}
 		{
 			dependencies: ["0152C49AB74B9D32"]
 			description: [
-				"To create a reaction for the Reactor to turn on, we're going to need to inject it with a ton of power. &oAnd I mean a ton of power&r."
+				"{atm9.quest.mekanismReactors.desc.reactorActivation.1}"
 				""
-				"This requires you to set up several &9Lasers&r that all need to be powered, then shooting 400MFE directly into the Laser Focus Matrix."
+				"{atm9.quest.mekanismReactors.desc.reactorActivation.2}"
 				""
-				"The Laser Focus Matrix is placed in the center of one face of the Fusion Reactor. We'll build the Lasers next."
+				"{atm9.quest.mekanismReactors.desc.reactorActivation.3}"
 			]
 			icon: "mekanism:laser"
 			id: "79757F66DF263FA0"
 			min_width: 300
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "3DD4ABE973CF2F79"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
 					id: "27476AD1A921D6BC"
 					type: "xp"
 					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B24AFD5AA909662"
+					table_id: 8364958827326577211L
+					type: "loot"
 				}
 			]
 			tasks: [{
@@ -1534,18 +1404,18 @@
 				item: "mekanismgenerators:laser_focus_matrix"
 				type: "item"
 			}]
-			title: "Frickin' Laser Beams"
+			title: "{atm9.quest.mekanismReactors.frickinLaserBeams}"
 			x: 10.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["0152C49AB74B9D32"]
 			description: [
-				"Fusion Reactors require a very special fuel: &dD-T Fuel&r to be exact."
+				"{atm9.quest.mekanismReactors.desc.fuelRequirement.1}"
 				""
-				"There are two ways to fuel the Reactor: Either by pumping in D-T Fuel directly into the Reactor at 1,000mb/t, or by pumping each of the two fuels  in separately at controlled rates."
+				"{atm9.quest.mekanismReactors.desc.fuelRequirement.2}"
 				""
-				"For starters, let's pump them in separately. We probably need to know how to make them as well."
+				"{atm9.quest.mekanismReactors.desc.fuelRequirement.3}"
 			]
 			icon: "mekanismgenerators:fusion_fuel_bucket"
 			id: "12D271359D48210E"
@@ -1556,10 +1426,10 @@
 			}]
 			tasks: [{
 				id: "2A6E713A062510B6"
-				title: "Fueling the Reactor"
+				title: "{atm9.quest.mekanismReactors.fuelingTheReactor}"
 				type: "checkmark"
 			}]
-			title: "Fueling the &dFusion Reactor&r"
+			title: "{atm9.quest.mekanismReactors.fuelingTheFusionReactor}"
 			x: 10.5d
 			y: -8.0d
 		}
@@ -1569,15 +1439,15 @@
 				"3593D955361B0C6D"
 			]
 			description: [
-				"Hohlraum filled with D-T Fuel? &oCheck!&r"
+				"{atm9.quest.mekanismReactors.desc.fusionReactorPrep.1}"
 				""
-				"Deuterium and Tritium ready to be pumped into the Reactor? &oCheck!&r"
+				"{atm9.quest.mekanismReactors.desc.fusionReactorPrep.2}"
 				""
-				"A Laser Amplifier with at least 400MRF ready to shoot into the Laser Focus Matrix? &oCheck!&r"
+				"{atm9.quest.mekanismReactors.desc.fusionReactorPrep.3}"
 				""
-				"Once you are ready, place the &5Hohlraum&r into the &aFusion Reactor Controller&r, pump in the Fuel, then activate your Laser Amplifier."
+				"{atm9.quest.mekanismReactors.desc.fusionReactorPrep.4}"
 				""
-				"If done right, &nyou'll see the Reactor activate!&r"
+				"{atm9.quest.mekanismReactors.desc.fusionReactorPrep.5}"
 				""
 				""
 				"{image:atm:textures/questpics/mek/fusion_activated.png width:225 height:150 align:1}"
@@ -1588,62 +1458,54 @@
 			progression_mode: "linear"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "5E8B928DA02C26C9"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
 					id: "66CC79AB269C93AC"
 					type: "xp"
 					xp: 500
 				}
+				{
+					exclude_from_claim_all: true
+					id: "12724465924DCF00"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
 			]
 			shape: "hexagon"
 			size: 3.0d
-			tasks: [
-				{
-					id: "4B63979C49A34565"
-					item: {
-						Count: 1b
-						id: "mekanismgenerators:hohlraum"
-						tag: {
-							mekData: {
-								GasTanks: [{
-									Tank: 0b
-									stored: {
-										amount: 10L
-										gasName: "mekanismgenerators:fusion_fuel"
-									}
-								}]
-							}
+			tasks: [{
+				id: "4B63979C49A34565"
+				item: {
+					Count: 1
+					id: "mekanismgenerators:hohlraum"
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									amount: 10L
+									gasName: "mekanismgenerators:fusion_fuel"
+								}
+							}]
 						}
 					}
-					type: "item"
 				}
-				{
-					icon: "mekanismgenerators:fusion_reactor_frame"
-					id: "0B31B1E6089BB33E"
-					title: "Observe a completed Fusion Reactor"
-					type: "custom"
-				}
-			]
-			title: "&dI Think We're Ready&r"
+				type: "item"
+			}]
+			title: "{atm9.quest.mekanismReactors.ready}"
 			x: 17.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["54D8B9CB3F98040F"]
 			description: [
-				"The &dFusion Reactor&r can produce up to 200MRF/t on its own, but first we need to understand some mechanics."
+				"{atm9.quest.mekanismReactors.desc.fusionReactorIntro.1}"
 				""
-				"The easiest way to produce power is by pumping in Deuterium and Tritium separately, then controlling how much fuel is burned using the &aInjection Rate&r in the &cFuel Tab&r."
+				"{atm9.quest.mekanismReactors.desc.fusionReactorIntro.2}"
 				""
-				"This has to be an even number with a max of 98, as it combines the D-T fuel inside of the Reactor itself. The consumption of each fuel is equal to half of the Injection Rate per tick, meaning 49mb/t of each for the max."
+				"{atm9.quest.mekanismReactors.desc.fusionReactorIntro.3}"
 				""
-				"However, you can directly inject &dD-T Fuel&r, but will not be able to control the Injection Rate. This will create massive amounts of power per tick, but at a much higher fuel consumption rate of 500mb/t of each fuel."
+				"{atm9.quest.mekanismReactors.desc.fusionReactorIntro.4}"
 				""
-				"{image:atm:textures/questpics/mek/fusion_fuelUI.png width:175 height:150 align:1}"
+				"{image:atm:textures/questpics/mek/fusion_fuelui1.png width:175 height:150 align:1}"
 			]
 			id: "26D306418545A2D6"
 			min_width: 300
@@ -1654,38 +1516,37 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "717D37340F864405"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
 					id: "5FAD66DBACDEA6ED"
 					type: "xp"
 					xp: 1000
 				}
+				{
+					exclude_from_claim_all: true
+					id: "4EF01D10EB944CC6"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
 			]
-			subtitle: "Use Task Screen To Complete"
 			tasks: [{
 				id: "1EEEE30BA51757D6"
 				max_input: 1000L
 				type: "forge_energy"
 				value: 50000000L
 			}]
-			title: "&dThe End Game Power Source&r"
+			title: "{atm9.quest.mekanismReactors.endGamePowerSource}"
 			x: 20.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["3FFF9018DA2A2763"]
 			description: [
-				"The &9Industrial Turbine&r is a massive multiblock structure used to convert &cHeated Coolant&r into power. The minimum size is 5x5x5, with the maximum size being 17x17x18."
+				"{atm9.quest.mekanismReactors.desc.industrialTurbine.1}"
 				""
-				"To build the Turbine, we'll need several blocks so let's start with the basics."
+				"{atm9.quest.mekanismReactors.desc.industrialTurbine.2}"
 				""
-				"Just like most Mekanism multiblocks, the frame must be made out of &eTurbine Casings&r. However, instead of Reactor Glass, you can use &bStructural Glass&r or Casings for each face."
+				"{atm9.quest.mekanismReactors.desc.industrialTurbine.3}"
 				""
-				"We're going to build this Turbine, and the quest requires the exact materials needed."
+				"{atm9.quest.mekanismReactors.desc.industrialTurbine.4}"
 				""
 				"{image:atm:textures/questpics/mek/turbine_completed.png width:200 height:225 align:1}"
 			]
@@ -1693,26 +1554,19 @@
 			min_width: 300
 			rewards: [
 				{
-					command: "/create ponder mekanismgenerators:turbine_casing"
-					icon: "ftbquests:barrier"
-					id: "268F36DC559527FD"
-					title: "Click Me To Learn How To Build!"
-					type: "command"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3178D34B3E9ED19C"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
 					id: "0963F21E8369E149"
 					type: "xp"
 					xp: 100
 				}
+				{
+					exclude_from_claim_all: true
+					id: "6427E149BC34AD20"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
 			]
 			shape: "gear"
-			subtitle: "Building the Frame"
+			subtitle: "{atm9.quest.mekanismReactors.buildingFrame}"
 			tasks: [
 				{
 					count: 52L
@@ -1727,32 +1581,32 @@
 					type: "item"
 				}
 			]
-			title: "The &9Industrial Turbine&r"
+			title: "{atm9.quest.mekanismReactors.industrialTurbine.1}"
 			x: 12.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["6313B18820445882"]
 			description: [
-				"&9Turbine Valves&r are used to pump in &bSteam&r, as well as pumping out the power that the Turbine creates."
+				"{atm9.quest.mekanismReactors.desc.turbineValves.1}"
 				""
-				"&8Turbine Vents&r are used to pump out excess water when using &aSaturating Condensers&r. Otherwise, these help increase the overall flow of steam within the Turbine. The total number of Vents also limit the total Steam Flow Rate. Vents can also be used on the top face of the Turbine, but for this build, we'll just be using them on the outside faces."
+				"{atm9.quest.mekanismReactors.desc.turbineValves.2}"
 				""
-				"&aSaturating Condensers&r are used to convert &bSteam&r back into water. These are placed on or above the layer containing the Electromagnetic Coils."
+				"{atm9.quest.mekanismReactors.desc.turbineValves.3}"
 			]
 			id: "233E438357CD89F6"
 			min_width: 300
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "079119F5F2925E2E"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
 					id: "0A4A1734D68DC205"
 					type: "xp"
 					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1FA4B60F847A1D52"
+					table_id: 8364958827326577211L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -1776,34 +1630,34 @@
 					type: "item"
 				}
 			]
-			title: "The &aPorts&r"
+			title: "{atm9.quest.mekanismReactors.ports}"
 			x: 14.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["6313B18820445882"]
 			description: [
-				"The &9Turbine Rotor&r is placed in the middle of the Turbine. For every Turbine Rotor, you will need 2 &aTurbine Blades&r. For this Turbine, we'll be using 3 Rotors."
+				"{atm9.quest.mekanismReactors.desc.turbineRotor.1}"
 				""
-				"While looking at the Rotor, right clicking with &aTurbine Blades&r will place them directly onto the Rotor. The taller the Rotor, the longer the Blades will become. For this build, we are using 6 total Blades. If you plan on building a bigger Turbine, you will need to increase the width of the Turbine depending on how many Blades you plan on using."
+				"{atm9.quest.mekanismReactors.desc.turbineRotor.2}"
 				""
-				"The &9Rotational Complex&r must be placed at the top of the Turbine Rotor. This is then surrounded by &ePressure Dispersers&r."
+				"{atm9.quest.mekanismReactors.desc.turbineRotor.3}"
 				""
-				"The Dispersers must fill out the entire layer where the Rotational Complex sits."
+				"{atm9.quest.mekanismReactors.desc.turbineRotor.4}"
 			]
 			id: "05D20B506213A449"
 			min_width: 300
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "5FCF42CDCA222B28"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
 					id: "5FDADDDF8428A238"
 					type: "xp"
 					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5EF02DD923B9AECC"
+					table_id: 8364958827326577211L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -1832,29 +1686,29 @@
 					type: "item"
 				}
 			]
-			title: "The &aRotor&r"
+			title: "{atm9.quest.mekanismReactors.rotor}"
 			x: 14.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["6313B18820445882"]
 			description: [
-				"The &9Electromagnetic Coil&r is placed directly on top of the &aRotational Complex&r to convert the kinetic energy into power."
+				"{atm9.quest.mekanismReactors.desc.electromagneticCoil}"
 				""
-				"You can use multiple, with 5 being the max. These must either touch another Coil, or the Rotational Complex."
+				"{atm9.quest.mekanismReactors.desc.electromagneticCoil.2}"
 			]
 			id: "7C61906C6C87C97D"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "29C9FF0DAC44A134"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
 					id: "18AE58687D78BB0F"
 					type: "xp"
 					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78B5258851C77EEF"
+					table_id: 8364958827326577211L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -1873,116 +1727,114 @@
 				"05D20B506213A449"
 			]
 			description: [
-				"If you've built the Turbine properly, you will see red particles around the structure. Right clicking on the Turbine will open up the interface."
+				"{atm9.quest.mekanismReactors.desc.turbineOperation.1}"
 				""
-				"This will tell you all of the information that you need to know, including the total Steam Flow Rate, as well as the total Steam inside of the Turbine."
+				"{atm9.quest.mekanismReactors.desc.turbineOperation.2}"
 				""
-				"On the right, you will have a bar that shows you the Power that is stored inside of the Turbine. If this gets full, the Turbine will turn off, unless you set it to Vent Overflow."
+				"{atm9.quest.mekanismReactors.desc.turbineOperation.3}"
 				""
-				"Let's get it running!"
+				"{atm9.quest.mekanismReactors.desc.turbineOperation.4}"
 				""
-				"Once you have a fully functioning Fission Reactor, pump out the &bSteam&r directly into a Turbine Valve on your Turbine. Since we're using Saturating Condensers in this build, you can pump out water from a Turbine Vent back into your Reactor if you want. "
+				"{atm9.quest.mekanismReactors.desc.turbineOperation.5}"
 			]
 			id: "4189BC3DFB551F4C"
 			min_width: 300
 			progression_mode: "linear"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "4C5DD65195702E52"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
 					id: "3B59F78B29ABD642"
 					type: "xp"
 					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28236D14DE2BFD97"
+					table_id: 8364958827326577211L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				icon: "mekanismgenerators:turbine_casing"
-				id: "71DB5E5857993B3F"
-				title: "Observe a Completed Turbine"
-				type: "custom"
+				id: "16269C92EF34FB14"
+				item: "mekanismgenerators:turbine_casing"
+				type: "item"
 			}]
-			title: "Creating Power with the Turbine!"
+			title: "{atm9.quest.mekanismReactors.creatingPower}"
 			x: 15.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["24174700F7FB771C"]
 			description: [
-				"If we want to create massive amounts of power, we'll need a way to store all of it, and those Energy Cubes just won't cut it."
+				"{atm9.quest.mekanismReactors.desc.powerStorage.1}"
 				""
-				"We're going to create a customizable multiblock used to store large amounts of power, but first, we need to make some Lithium Dust!"
+				"{atm9.quest.mekanismReactors.desc.powerStorage.2}"
 				""
-				"You should have some Brine being made from a previous quest using the &aThermal Evaporation Plants&r. Run the &eBrine&r through another &aThermal Evaporation Plant&r to get Lithium, then through a &aRotary Condensentrator&r to convert the liquid into a gas, then finally run the gas through a &9Chemical Crystallizer&r to get &aLithium Dust&r."
+				"{atm9.quest.mekanismReactors.desc.powerStorage.3}"
 			]
 			icon: "mekanism:upgrade_energy"
 			id: "0FF852DE33E41C90"
 			min_width: 250
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "4DA0A0C799C02F80"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
 					id: "6FBC38ABC17E2BFF"
 					type: "xp"
 					xp: 100
 				}
+				{
+					exclude_from_claim_all: true
+					id: "4F4019E53A3BC0CF"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
 			]
 			shape: "hexagon"
 			tasks: [{
-				count: 4L
 				id: "31A1425AA09C33F8"
-				item: "mekanism:dust_lithium"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dusts/lithium"
+					}
+				}
+				title: "{atm9.quest.mekanismReactors.lithiumDust}"
 				type: "item"
 			}]
-			title: "Advanced Power Storage"
+			title: "{atm9.quest.mekanismReactors.advancedPowerStorage}"
 			x: 3.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["0FF852DE33E41C90"]
 			description: [
-				"Almost every Mekanism multiblock is built the same way."
+				"{atm9.quest.mekanismReactors.desc.inductionMatrix.1}"
 				""
-				"You'll need to make a rectangular prism structure. The edges must be made out of &8Induction Casings&r. The faces can be made of either Casings, &aStructural Glass&r, or &cInduction Ports&r. It's best to have 2 Ports: one for input, and one for output. These can be changed using the &eConfigurator&r."
+				"{atm9.quest.mekanismReactors.desc.inductionMatrix.2}"
 				""
-				"For this build, we'll be making a 5x5x5. This quest requires the exact amount of materials needed to build this. Need help? &nCheck out the Ponder!&r"
+				"{atm9.quest.mekanismReactors.desc.inductionMatrix.3}"
 				""
 				"{image:atm:textures/questpics/mek/induction_matrix.png width:200 height:200 align:1}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "673FCBF8685D0EEE"
 			min_width: 300
 			rewards: [
-				{
-					command: "/create ponder mekanism:induction_casing"
-					icon: "ftbquests:barrier"
-					id: "1B37826ECEC743AB"
-					title: "Click Me To See How To Build!"
-					type: "command"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "613F17C233D08DE6"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
 				{
 					id: "47EF9E0FC6A57445"
 					type: "xp"
 					xp: 100
 				}
+				{
+					exclude_from_claim_all: true
+					id: "7B24AA0C25D709FA"
+					table_id: 8364958827326577211L
+					type: "loot"
+				}
 			]
 			shape: "diamond"
-			subtitle: "The Energy Cube's Papa"
+			subtitle: "{atm9.quest.mekanismReactors.energyCubePapa}"
 			tasks: [
 				{
 					count: 44L
@@ -2003,37 +1855,37 @@
 					type: "item"
 				}
 			]
-			title: "Building the &9Induction Matrix&r"
+			title: "{atm9.quest.mekanismReactors.buildingInductionMatrix}"
 			x: 4.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0FF852DE33E41C90"]
 			description: [
-				"The Induction Matrix allows you to customize how much power you can store and transfer by adding Cells and Providers inside of the multiblock structure."
+				"{atm9.quest.mekanismReactors.desc.inductionMatrixDetails.1}"
 				""
-				"Induction Cells increase the total amount of power that can be stored."
+				"{atm9.quest.mekanismReactors.desc.inductionMatrixDetails.2}"
 				""
-				"Induction Providers increase the total transfer speed both in and out of the Matrix."
+				"{atm9.quest.mekanismReactors.desc.inductionMatrixDetails.3}"
 				""
-				"You can customize how many you want of each inside of the multiblock, but you will need at least one of each. These also have higher tiers to increase your overall storage and transfer capacity."
+				"{atm9.quest.mekanismReactors.desc.inductionMatrixDetails.4}"
 				""
 				"{image:atm:textures/questpics/mek/induction_inside.png width:300 height:200 align:1}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "14D772808D1BEAE2"
 			min_width: 350
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "250D8106ACD732CF"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
 					id: "3CC428CF1A7974C7"
 					type: "xp"
 					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72F41F8D5D6CCBB6"
+					table_id: 8364958827326577211L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -2041,7 +1893,7 @@
 				{
 					id: "4063C1B5F935A026"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -2064,13 +1916,13 @@
 							]
 						}
 					}
-					title: "Induction Cells"
+					title: "{atm9.quest.mekanismReactors.inductionCells}"
 					type: "item"
 				}
 				{
 					id: "2E3FF129C3668DD8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -2093,11 +1945,11 @@
 							]
 						}
 					}
-					title: "Induction Providers"
+					title: "{atm9.quest.mekanismReactors.inductionProviders}"
 					type: "item"
 				}
 			]
-			title: "&aCustomizing Our&r &9Power Limits&r"
+			title: "{atm9.quest.mekanismReactors.customizingPowerLimits}"
 			x: 4.0d
 			y: -0.5d
 		}
@@ -2107,38 +1959,77 @@
 				"14D772808D1BEAE2"
 			]
 			description: [
-				"Once you've finished building your first &9Energized Induction Matrix&r, you'll see red particles all around the structure to show that it is complete."
+				"{atm9.quest.mekanismReactors.desc.matrixCompletion.1}"
 				""
-				"Don't be afraid to upgrade with higher tier Cells and Providers! Need more space for them? The maximum size the Induction Matrix can be is 18x18x18. "
+				"{atm9.quest.mekanismReactors.desc.matrixCompletion.2}"
 			]
 			icon: "mekanism:ultimate_induction_cell"
 			id: "07ECC87DFF2D3991"
 			progression_mode: "linear"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "2871E7A5B590DB95"
-					table_id: 8364958827326577211L
-					type: "loot"
-				}
-				{
 					id: "19F7348CFE7A14C9"
 					type: "xp"
 					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75D4F410B2974D08"
+					table_id: 8364958827326577211L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
-				icon: "mekanism:induction_casing"
-				id: "621A4E28BD50F96C"
-				title: "Observe a Completed Induction Matrix"
-				type: "custom"
+				id: "271A066A74F1995C"
+				item: "mekanism:induction_casing"
+				type: "item"
 			}]
-			title: "&aCompleting the&r &9Matrix&r"
+			title: "{atm9.quest.mekanismReactors.completingMatrix}"
 			x: 5.0d
 			y: -1.0d
 		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide_details_until_startable: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "67423D709305AD2D"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "43556EEA05422924"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "314BB5005E524D0A"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 1.5d
+			y: -2.5d
+		}
 	]
-	title: "Mekanism: &dAdvanced&r"
+	title: "{atm9.chapters.22.title}"
 }

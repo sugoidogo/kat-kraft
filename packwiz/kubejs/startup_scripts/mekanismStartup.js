@@ -1,4 +1,6 @@
 /*
+  This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+  As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
   Mekanism items for processing stack
   Authored by EnigmaQuip
 
@@ -8,21 +10,21 @@
 
 global.mekStackAdditions = [
   {material:'crimson_iron', color:'#fc9aad', makeDust: false},
-  {material:'azure_silver', color:'#e89ffc', makeDust: false},
-  {material:'iridium', color:'#c9c9c9', makedust: false}
-
+  {material:'azure_silver', color:'#e89ffc', makeDust: false}
 ]
 
 // DO NOT EDIT BELOW THIS LINE
 
 const $Slurry = Java.loadClass('mekanism.api.chemical.slurry.Slurry')
 const $SlurryBuilder = Java.loadClass('mekanism.api.chemical.slurry.SlurryBuilder')
+const $Gas = Java.loadClass('mekanism.api.chemical.gas.Gas')
+const $GasBuilder = Java.loadClass('mekanism.api.chemical.gas.GasBuilder')
 
-StartupEvents.registry('item', event => {
+StartupEvents.registry('item', allthemods => {
   const mekItems = ['clump', 'crystal', 'dirty_dust', 'shard']
   function mekStack(name, color) {
     mekItems.forEach(type => {
-      event.create(`${type}_${name}`)
+      allthemods.create(`${type}_${name}`)
         .texture('layer0', 'mekanism:item/empty')
         .texture('layer1', `mekanism:item/${type}`)
         .texture('layer2', `mekanism:item/${type}_overlay`)
@@ -34,7 +36,7 @@ StartupEvents.registry('item', event => {
   global.mekStackAdditions.forEach(entry => {
     mekStack(entry.material, entry.color)
     if (entry.makeDust) {
-      event.create(`dust_${entry.material}`)
+      allthemods.create(`dust_${entry.material}`)
         .texture('layer0', 'mekanism:item/empty')
         .texture('layer1', `mekanism:item/dust`)
         .color(1, entry.color)
@@ -44,9 +46,16 @@ StartupEvents.registry('item', event => {
   })
 })
 
-StartupEvents.registry('mekanism:slurry', event => {
+StartupEvents.registry('mekanism:slurry', allthemods => {
   global.mekStackAdditions.forEach(entry => {
-    event.createCustom(`clean_${entry.material}`, () => $Slurry($SlurryBuilder.clean().ore(`forge:ores/${entry.material}`).color(Color.of(entry.color).getRgbJS())))
-    event.createCustom(`dirty_${entry.material}`, () => $Slurry($SlurryBuilder.dirty().ore(`forge:ores/${entry.material}`).color(Color.of(entry.color).getRgbJS())))
+    allthemods.createCustom(`clean_${entry.material}`, () => $Slurry($SlurryBuilder.clean().ore(`forge:ores/${entry.material}`).tint(Color.of(entry.color).getRgbJS())))
+    allthemods.createCustom(`dirty_${entry.material}`, () => $Slurry($SlurryBuilder.dirty().ore(`forge:ores/${entry.material}`).tint(Color.of(entry.color).getRgbJS())))
   })
 })
+
+StartupEvents.registry('mekanism:gas', allthemods => {
+  allthemods.createCustom(`neutron_gas`, () => $Gas($GasBuilder.builder()))
+})
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

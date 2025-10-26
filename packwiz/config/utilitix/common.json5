@@ -83,7 +83,10 @@
   "crouchNoWaterlog": true,
   
   // Both doors open at the same time if connected
-  "doubleDoor": true,
+  "doubleDoor": false,
+  
+  // Illusioners will appear in raids
+  "illusionerInRaid": true,
   
   // Size scale for exporting maps
   // 1 = 128x128px
@@ -111,6 +114,18 @@
   // This way, the wandering trader remains in the world longer.
   // Minimum: 0
   "wanderingTraderExtraTime": 400,
+  
+  "Backpack": {
+  
+    // The maximum size of a backpack when merging with other backpacks
+    // Beyond this number, backpacks cannot be merged
+    // Range: 1 - 154
+    "maxSize": 54,
+    
+    // The initial size of a backpack
+    // Range: 1 - 154
+    "slotSize": 9
+  },
   
   // Config options for experience crystal
   "ExperienceCrystal": {

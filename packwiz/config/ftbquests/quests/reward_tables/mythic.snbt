@@ -5,8 +5,6 @@
 	order_index: 17
 	rewards: [
 		{ item: "mekanism:pellet_antimatter" }
-		{ item: "elementalcraft:purecrystal", random_bonus: 1, weight: 3.0f }
-		{ item: "elementalcraft:fireite_ingot", weight: 2.0f }
 		{ item: "mysticalagriculture:awakened_supremium_block", random_bonus: 1 }
 		{ item: "mysticalagriculture:allthemodium_seeds", weight: 3.0f }
 		{ item: "mysticalagriculture:vibranium_seeds", weight: 3.0f }
@@ -19,7 +17,7 @@
 		{
 			count: 2
 			item: {
-				Count: 1b
+				Count: 1
 				id: "productivebees:spawn_egg_configurable_bee"
 				tag: {
 					EntityTag: {
@@ -34,7 +32,7 @@
 		{ count: 36, item: "powah:reactor_nitro", weight: 2.0f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "allthemodium:alloy_sword"
 				tag: {
 					affix_data: {
@@ -65,7 +63,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "allthemodium:alloy_axe"
 				tag: {
 					affix_data: {
@@ -96,7 +94,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "allthemodium:allthemodium_boots"
 				tag: {
 					affix_data: {
@@ -125,7 +123,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "allthemodium:allthemodium_leggings"
 				tag: {
 					affix_data: {
@@ -156,7 +154,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "allthemodium:allthemodium_chestplate"
 				tag: {
 					affix_data: {
@@ -187,7 +185,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "allthemodium:allthemodium_helmet"
 				tag: {
 					affix_data: {

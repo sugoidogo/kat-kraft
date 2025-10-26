@@ -1,5 +1,5 @@
 name = "Complementary Shaders - Reimagined"
-filename = "ComplementaryReimagined_r5.1.1.zip"
+filename = "ComplementaryReimagined_r5.6.1.zip"
 side = "client"
 
 [option]
@@ -7,11 +7,11 @@ optional=true
 default=true
 
 [download]
-url = "https://cdn.modrinth.com/data/HVnmMxH1/versions/D5fox3fg/ComplementaryReimagined_r5.1.1.zip"
-hash-format = "sha512"
-hash = "fb6fda4dfc4851bed754f4f0eddac8f065e69e564cbd7c479963b98c95cb5646d1c527ca0f680bde0fd302d0f3f0eaa66be7526ee5df6bdd9df0379b0b1d8cd5"
+hash-format = "sha1"
+hash = "7fa0a31aa9375ad63e4b13cb1de8d4a9702dd74e"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "HVnmMxH1"
-version = "D5fox3fg"
+[update.curseforge]
+file-id = 7090226
+project-id = 627557
