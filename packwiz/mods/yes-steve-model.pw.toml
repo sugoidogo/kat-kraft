@@ -1,0 +1,13 @@
+name = "Yes Steve Model"
+filename = "ysm-2.5.1-forge+mc1.20.1-release.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/86xjpqqS/versions/4aj1O0iH/ysm-2.5.1-forge%2Bmc1.20.1-release.jar"
+hash-format = "sha512"
+hash = "c31868eb7ff15ab387d66288c04f964eb13ec71fe3c15b3d9a694ceba5c744c1098482e3de5859be8f2efbfa6102b2f3649fc0c990e09ce26c7d1a844fb72e65"
+
+[update]
+[update.modrinth]
+mod-id = "86xjpqqS"
+version = "4aj1O0iH"
