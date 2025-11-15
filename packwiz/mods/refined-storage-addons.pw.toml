@@ -5,9 +5,8 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "829c7270a3fad543e441a18b5b9f27fd30824086"
-mode = "metadata:curseforge"
+url = "https://edge.forgecdn.net/files/4626/171/refinedstorageaddons-0.10.0.jar"
 
-[update]
 [update.curseforge]
 file-id = 4626171
 project-id = 272302

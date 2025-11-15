@@ -1,0 +1,13 @@
+name = "Longer Following Time"
+filename = "longer_following_time-merged-1.20.1-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/aQBO03zj/versions/f1eQv9uJ/longer_following_time-merged-1.20.1-1.1.0.jar"
+hash-format = "sha512"
+hash = "657e9b5e75e4800d5901e83e1ad6a006f89a8d5118031d71b6602ef1797bbdc49949a5b913e58ff3e151c17db90614eab8e9c1bb5c0540f0ca514d177b519a93"
+
+[update]
+[update.modrinth]
+mod-id = "aQBO03zj"
+version = "f1eQv9uJ"

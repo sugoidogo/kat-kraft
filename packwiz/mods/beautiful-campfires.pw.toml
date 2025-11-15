@@ -1,0 +1,13 @@
+name = "Beautiful Campfires"
+filename = "beautifulcampfires-forge-1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/5rSUyK0f/versions/Qkgxun0I/beautifulcampfires-forge-1.20.1-1.0.1.jar"
+hash-format = "sha512"
+hash = "6ed87933890484a0b10bbdfc7de6271f818f823c776a2287087a0b3585ad0ed5f2cd9422a5efc8db6b51af46c798ded4c8ec3acf03fb746ac5bf55c060062560"
+
+[update]
+[update.modrinth]
+mod-id = "5rSUyK0f"
+version = "Qkgxun0I"

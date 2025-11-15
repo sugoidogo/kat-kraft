@@ -3,11 +3,11 @@ filename = "sliceanddice-forge-3.5.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "bdd6d2be506b584f115996159fe48cc0a7894d6f"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/GmjmRQ0A/versions/qa7eMq5Z/sliceanddice-forge-3.5.2.jar"
+hash-format = "sha512"
+hash = "7c8cf6a10eb99b06fd69d8ab570db1a4490eda3de9c756ff74b9888ecee380652c7f24d1b0c2002823c5cecbbb91d25e08a2a20879b4019e5d14bd67b0ac7509"
 
 [update]
-[update.curseforge]
-file-id = 7070808
-project-id = 659674
+[update.modrinth]
+mod-id = "GmjmRQ0A"
+version = "qa7eMq5Z"

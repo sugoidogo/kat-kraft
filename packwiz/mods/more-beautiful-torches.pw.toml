@@ -1,0 +1,13 @@
+name = "More Beautiful Torches"
+filename = "more_beautiful_torches-merged-1.20.1-3.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/C341qvJ5/versions/GxC77XgR/more_beautiful_torches-merged-1.20.1-3.0.0.jar"
+hash-format = "sha512"
+hash = "0eed306eb9484b14332e9bb64f71ed88ae2191d9e62305cdc0802e967ebc901a64232e5ef17d0482e3e5efd0287923fd9ed317e68e9fe3e2d5dd6e2bae9c565c"
+
+[update]
+[update.modrinth]
+mod-id = "C341qvJ5"
+version = "GxC77XgR"

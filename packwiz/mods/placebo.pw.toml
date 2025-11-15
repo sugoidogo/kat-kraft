@@ -5,9 +5,8 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "e85f53de2e582a79ce25ff1df1e7b5b5fc08440f"
-mode = "metadata:curseforge"
+url = "https://edge.forgecdn.net/files/6274/231/Placebo-1.20.1-8.6.3.jar"
 
-[update]
 [update.curseforge]
 file-id = 6274231
 project-id = 283644

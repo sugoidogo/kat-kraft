@@ -1,0 +1,13 @@
+name = "Yeetus Experimentus"
+filename = "YeetusExperimentus-Forge-2.3.1-build.6+mc1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/HaaH232J/versions/lR7Va12z/YeetusExperimentus-Forge-2.3.1-build.6%2Bmc1.20.1.jar"
+hash-format = "sha512"
+hash = "651bcd7545490c6776bd986c91c2a9471cb58f80d7666a4ee09141fcf5097e5bdaaa653725b224aa6ba0f55969541a36e68107dcec51efcbc8f99499a6d08aa2"
+
+[update]
+[update.modrinth]
+mod-id = "HaaH232J"
+version = "lR7Va12z"

@@ -1,0 +1,13 @@
+name = "Portable Spawners"
+filename = "portablespawner-forge-1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/TASFM9Js/versions/TtFDnJbL/portablespawner-forge-1.20.1-1.0.1.jar"
+hash-format = "sha512"
+hash = "170dfe0759c94a07ee7c18e2df671386b3dbb2e6c5c9387d3dd05f61e8714cca4446bf3ed8ec18867bf3b78a3dc33710d61746bb6f183e3c4d56b59ea605e352"
+
+[update]
+[update.modrinth]
+mod-id = "TASFM9Js"
+version = "TtFDnJbL"

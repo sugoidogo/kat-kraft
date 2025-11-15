@@ -1,0 +1,13 @@
+name = "Overclocked Watches"
+filename = "overclocked_watches-merged-1.20.1-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Uk12PwL9/versions/JXdOb8ig/overclocked_watches-merged-1.20.1-1.1.0.jar"
+hash-format = "sha512"
+hash = "8ad9f2b92215a7360e5d500fa4530983097cf5df149bd40fb9e28fa33e4d11675c651516af6804b75f999d3bdbd5260b04afbb5f92f579d006b2a9a789cb6e04"
+
+[update]
+[update.modrinth]
+mod-id = "Uk12PwL9"
+version = "JXdOb8ig"

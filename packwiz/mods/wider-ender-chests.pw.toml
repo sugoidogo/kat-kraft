@@ -1,0 +1,13 @@
+name = "Wider Ender Chests"
+filename = "forge_wider_ender_chests-1.0.3-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EDVt0J2I/versions/FAxFasMD/forge_wider_ender_chests-1.0.3-1.20.1.jar"
+hash-format = "sha512"
+hash = "b6d4996c0bdff8d571cb07ed8fd7ec79872c675f702d347d0284a4340e6ad3243646e5460a902bb0b9927d22afb1a01e6a6f6fed3f7de7763b693fd2fddac9ec"
+
+[update]
+[update.modrinth]
+mod-id = "EDVt0J2I"
+version = "FAxFasMD"

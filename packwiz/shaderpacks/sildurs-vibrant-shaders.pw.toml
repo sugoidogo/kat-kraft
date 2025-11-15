@@ -1,0 +1,12 @@
+name = "Sildur's Vibrant shaders"
+filename = "Sildur's Vibrant Shaders v1.541 Extreme.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2bf089d194e9b6e66fe66989776bf54d123e3a1c"
+url = "https://edge.forgecdn.net/files/6904/449/Sildur%27s%20Vibrant%20Shaders%20v1.541%20Extreme.zip"
+
+[update.curseforge]
+file-id = 6904449
+project-id = 544096

@@ -1,13 +1,13 @@
-name = "Naturalist Lite"
-filename = "naturalist-forge-4.0.3-1.20.1.jar"
+name = "Naturalist"
+filename = "naturalist-5.0pre2+forge-1.20.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "233106b2b15b2bbb27df6c78cc8369c0f89d4df7"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/F8BQNPWX/versions/LbtmTtvK/naturalist-5.0pre2%2Bforge-1.20.1.jar"
+hash-format = "sha512"
+hash = "431f72f970c53827d2e69cda078d327dc538700b0bc2588c98cee47c81c923f6a8709a3d2520bfd8485e6a934c426839239809e5cad5541e1de6ea55726f6c5a"
 
 [update]
-[update.curseforge]
-file-id = 4847009
-project-id = 627986
+[update.modrinth]
+mod-id = "F8BQNPWX"
+version = "LbtmTtvK"

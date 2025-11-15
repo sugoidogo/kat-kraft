@@ -1,0 +1,13 @@
+name = "Create Touch-Ups"
+filename = "Create Touch-Ups v1.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/BmapKTHd/versions/FDgkXf7n/Create%20Touch-Ups%20v1.0.zip"
+hash-format = "sha512"
+hash = "44a9779a5e0df6cbf10828dc7176eea73b380fb858b6a70ab5acb75b6a6a3d827cf8f619fb196bbfc697afc2f6e709b199446f8488bc894bffea7dd26dbd77fb"
+
+[update]
+[update.modrinth]
+mod-id = "BmapKTHd"
+version = "FDgkXf7n"

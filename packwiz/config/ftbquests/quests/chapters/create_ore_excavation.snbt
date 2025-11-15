@@ -1,0 +1,207 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_ore_excavation"
+	group: ""
+	icon: "createoreexcavation:drilling_machine"
+	id: "04B861778782AA8D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2DFDE04D134E60D3"]
+			description: ["Drilling machine: A device used to extract resources from deep underground."]
+			id: "12830AA7C494A4E2"
+			rewards: [{
+				id: "05DB1C46E40921A0"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D1C64870C7CCF7C"
+				item: "createoreexcavation:drilling_machine"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["12830AA7C494A4E2"]
+			id: "50F26CF90B9F73C8"
+			rewards: [{
+				count: 3
+				id: "3C5D7E94CE26B546"
+				item: "create:brass_sheet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AEFF963BC254056"
+				item: "createoreexcavation:extractor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["12830AA7C494A4E2"]
+			description: ["Extractor: A tool designed to process raw resources extracted by the drilling machine."]
+			id: "2C5BDB5E9721E835"
+			rewards: [{
+				id: "7C9B03777B8EC4BC"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "1532FED701EF8B06"
+				item: "createoreexcavation:drill"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C5BDB5E9721E835"]
+			description: ["Craft a diamond drill to reach deeper ores and more valuable resources."]
+			id: "2FC525A2719FA2C6"
+			rewards: [{
+				id: "195253A154AEB822"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "125959D8C8FC2FF8"
+				item: "createoreexcavation:diamond_drill"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2FC525A2719FA2C6"]
+			description: ["Craft a netherite drill to mine the most powerful and rare resources."]
+			id: "01864600225575DD"
+			rewards: [{
+				id: "524ED888FC2C95E2"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "42030B888B1F6880"
+				item: "createoreexcavation:netherite_drill"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			description: ["Craft a sample drill to begin your excavation journey."]
+			id: "2DFDE04D134E60D3"
+			rewards: [{
+				id: "27C706242FF5E826"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "24C5634C1845EFA6"
+				item: "createoreexcavation:sample_drill"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1AA9DCC32A116911"]
+			description: ["Collect raw diamonds to further progress in mining research."]
+			id: "6EE392DF5912B88A"
+			rewards: [{
+				id: "1F6C77772F99B5EC"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "2E413BF8E4138580"
+				item: "createoreexcavation:raw_diamond"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["12830AA7C494A4E2"]
+			description: ["Collect raw redstone to advance in your mining and crafting progress."]
+			id: "1AA9DCC32A116911"
+			rewards: [{
+				id: "71A2356B03F5C7E5"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "3CA6B1D0CBE32479"
+				item: "createoreexcavation:raw_redstone"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6EE392DF5912B88A"]
+			description: ["Collect raw emeralds to gather even more valuable materials."]
+			id: "4E7983B3E586ECFE"
+			rewards: [{
+				id: "46685A1B12E524EC"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "2E58D4D1DC85CA74"
+				item: "createoreexcavation:raw_emerald"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["12830AA7C494A4E2"]
+			description: ["Craft a vein atlas to assist in finding and tracking ore veins in the world."]
+			id: "613BFE107BBE13CC"
+			rewards: [{
+				count: 5
+				id: "2C8CA92671F3B92E"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CF187F9882D6434"
+				item: "createoreexcavation:vein_atlas"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["12830AA7C494A4E2"]
+			description: ["Craft a vein finder to locate ore veins and enhance mining efficiency."]
+			id: "3F7792256BBBC1BC"
+			rewards: [{
+				count: 5
+				id: "0B7523FDFDD76C3F"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5013EC6F299065BB"
+				item: {
+					Count: 1
+					id: "createoreexcavation:vein_finder"
+					tag: {
+						isFiltered: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+	]
+	title: "Create: Ore Excavation"
+}

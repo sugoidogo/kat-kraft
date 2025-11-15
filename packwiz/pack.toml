@@ -1,13 +1,12 @@
 name = "KatCraft"
-author = "SugoiDogo"
-version = "2.0.5"
+version = "3.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "c7e748145702a05494c6a836c250da87018ec288d40a887ac5ec0e798e490d5b"
+hash = "93c1af311971fc6186093de6c5310099868b6650cf0e0a685cbfaa2efe083bef"
 
 [versions]
-forge = "47.4.0"
+forge = "47.4.2"
 minecraft = "1.20.1"

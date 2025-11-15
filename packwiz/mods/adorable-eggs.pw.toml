@@ -1,0 +1,13 @@
+name = "Adorable Eggs"
+filename = "adorable_eggs-Forge-1.20.1-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/v1NZJevY/versions/A2ei4B2D/adorable_eggs-Forge-1.20.1-1.0.2.jar"
+hash-format = "sha512"
+hash = "5344335e1c51b9b11e29afbef5dd575b59ef9a34385c5e0ffd8eb6a84ad2a6df299261b6a0c1efb975687c35955921643be90ae3d5366d7e5aabf303679be928"
+
+[update]
+[update.modrinth]
+mod-id = "v1NZJevY"
+version = "A2ei4B2D"

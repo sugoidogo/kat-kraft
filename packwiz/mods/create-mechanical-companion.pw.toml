@@ -1,0 +1,13 @@
+name = "Create: Mechanical Companion"
+filename = "createmechanicalcompanion-1.7-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/nJ9B5oz1/versions/Nrr4FLiI/createmechanicalcompanion-1.7-1.20.1.jar"
+hash-format = "sha512"
+hash = "21015785105eb8db57bb45d6e3f3f51124688e9d8f9016dec73872959345e35fe6d2d278338186e4145186d1d48876abf328012cc3e51121ade02a919e059ded"
+
+[update]
+[update.modrinth]
+mod-id = "nJ9B5oz1"
+version = "Nrr4FLiI"

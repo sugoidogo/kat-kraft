@@ -1,0 +1,13 @@
+name = "Epic Power Bracelets"
+filename = "epicpowerbracelets-forge-1.20.X-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FaAx7QQX/versions/wlp0OwLa/epicpowerbracelets-forge-1.20.X-1.1.0.jar"
+hash-format = "sha512"
+hash = "01a8a6dbfd25c39fa93aeb3174b2d0f468b7a74fd42ea87c1502f13d454694099882ac63f2f1b6d06f91f3c291834926df283b28c01d00722526fac607657d67"
+
+[update]
+[update.modrinth]
+mod-id = "FaAx7QQX"
+version = "wlp0OwLa"

@@ -1,0 +1,13 @@
+name = "Create: Smart Crafter"
+filename = "smartcrafter-0.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Boz7GXeA/versions/pSPK5LmO/smartcrafter-0.2.0.jar"
+hash-format = "sha512"
+hash = "b3403d72dda7d6aa734253cd279d44117c34f57807479cb08722f2d956e43124b7d8d17e4cea31c5e09474a75cdd1439940f9f522bd718bdbc68d26ca785bd1b"
+
+[update]
+[update.modrinth]
+mod-id = "Boz7GXeA"
+version = "pSPK5LmO"

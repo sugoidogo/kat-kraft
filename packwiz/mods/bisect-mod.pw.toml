@@ -1,0 +1,13 @@
+name = "BisectHosting Server Integration Menu"
+filename = "BHMenu-Forge-1.20.1-2.4.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/yWSAtnfH/versions/X2GyTrj4/BHMenu-Forge-1.20.1-2.4.2.jar"
+hash-format = "sha512"
+hash = "d83901378df3f1c148bdd24130819bc652bce0193b58f4a9988950dd75a4165db53a9d441a1a8669210dc2ce976a726117208957ce17da3b2834bf658b0d2f57"
+
+[update]
+[update.modrinth]
+mod-id = "yWSAtnfH"
+version = "X2GyTrj4"

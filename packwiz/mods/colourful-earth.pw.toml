@@ -1,0 +1,13 @@
+name = "Colourful Earth"
+filename = "colourfulearth-1.20.1-2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/blQC9FUr/versions/d3BKaT4I/colourfulearth-1.20.1-2.1.jar"
+hash-format = "sha512"
+hash = "c54c16eb6c3e5ce3d1b735e49f6f16c9d7259925076c562d7e342d066d8ca27964316cd54fa8b85018dcb4080b9c1961945e387d412ec0c90b4dc67f48716ea6"
+
+[update]
+[update.modrinth]
+mod-id = "blQC9FUr"
+version = "d3BKaT4I"

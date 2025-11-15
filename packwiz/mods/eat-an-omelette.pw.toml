@@ -1,0 +1,13 @@
+name = "Eat an Omelette"
+filename = "eat_an_omelette-merged-1.20.1-1.5.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/VqI5EAmI/versions/9Qpijgu3/eat_an_omelette-merged-1.20.1-1.5.0.jar"
+hash-format = "sha512"
+hash = "7089cb89fd0956ff40d54ab521fe1b84ebaba0157243c5c7c9432028e8c29a69600016d19865b5a6628fc606bec7f9382840c8c775fc248f7939c01d95eaca78"
+
+[update]
+[update.modrinth]
+mod-id = "VqI5EAmI"
+version = "9Qpijgu3"

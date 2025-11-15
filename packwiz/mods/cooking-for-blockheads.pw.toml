@@ -5,9 +5,8 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "9e04a8ec055d2124baeb9ea4c3f52a32d7c19d1b"
-mode = "metadata:curseforge"
+url = "https://edge.forgecdn.net/files/6975/915/cookingforblockheads-forge-1.20.1-16.0.14.jar"
 
-[update]
 [update.curseforge]
 file-id = 6975915
 project-id = 231484

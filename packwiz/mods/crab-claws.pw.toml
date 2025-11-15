@@ -1,0 +1,13 @@
+name = "Crab Claws"
+filename = "crabclaws-forge-1.20.X-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/UWxXQFc7/versions/qB9tezlr/crabclaws-forge-1.20.X-1.2.0.jar"
+hash-format = "sha512"
+hash = "407df7ecc064bb47d9844be000ce2eab43dde88976bb21a3d5826d6b32a7fccbb14a5fd675f3c464eb29788d425eba44514fb6e8296715c3e14c74b30bcacf81"
+
+[update]
+[update.modrinth]
+mod-id = "UWxXQFc7"
+version = "qB9tezlr"

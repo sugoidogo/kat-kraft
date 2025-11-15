@@ -1,0 +1,13 @@
+name = "Healthy Water"
+filename = "healthy_water-merged-1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DcxOJQkT/versions/oEaPHKji/healthy_water-merged-1.20.1-1.0.1.jar"
+hash-format = "sha512"
+hash = "fc76a5ce477996908baec762528121c9b948319b39ae9881badd878248608a5ede5d52af98733647d80fbe1dda4383897a03528d65bee8e3edc42ec9bf8f141d"
+
+[update]
+[update.modrinth]
+mod-id = "DcxOJQkT"
+version = "oEaPHKji"

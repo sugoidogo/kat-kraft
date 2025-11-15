@@ -5,9 +5,8 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "9a50469803b8c078a24af3dbf0d323f1b891c526"
-mode = "metadata:curseforge"
+url = "https://edge.forgecdn.net/files/7041/657/blockui-1.20.1-1.0.194.jar"
 
-[update]
 [update.curseforge]
 file-id = 7041657
 project-id = 522992
