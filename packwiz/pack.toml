@@ -1,11 +1,11 @@
 name = "KatCraft"
-version = "3.0.0"
+version = "3.0.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "93c1af311971fc6186093de6c5310099868b6650cf0e0a685cbfaa2efe083bef"
+hash = "7666bb9f78198e6344f1824b13b0bf0cf45ac1e1c15c54646fdd2c71b31782c3"
 
 [versions]
 forge = "47.4.2"

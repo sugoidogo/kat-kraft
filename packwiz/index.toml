@@ -4002,7 +4002,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "c5ea75feae4d340856611f78a29e6f1f0b7e707bfe43847f11d25fac1769dee7"
+hash = "9dc1bbe2953d9005ec1620d9b04abeb336386efcf6117dad3e8f70ac92b742ce"
 metafile = true
 
 [[files]]
@@ -4747,7 +4747,7 @@ metafile = true
 
 [[files]]
 file = "mods/scorched-guns-2.pw.toml"
-hash = "394a7ec53775b7e70f7c65e454b825d04b1517b8ab4de1bc9287523124743be8"
+hash = "49a3f10a1b69889bfd94447729049d55abbca1b627f2359be84816d53f81b199"
 metafile = true
 
 [[files]]
