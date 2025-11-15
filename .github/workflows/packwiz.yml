@@ -2,7 +2,7 @@ name: Packwiz Automated Release
 
 on:
   push:
-    branches: ["atm9"]
+    branches: ["create-ultimate"]
   workflow_dispatch:
 
 permissions:
